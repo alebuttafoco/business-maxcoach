@@ -220,6 +220,7 @@ a {
   width: calc(100% / 3.2);
   background-color: white;
   border-radius: 5px;
+  box-shadow: 0px 1px 15px 1px lightgray;
 }
 #site_main .explore .container_sm .cards .card img {
   width: 100%;
@@ -236,4 +237,11 @@ a {
 }
 #site_main .explore .container_sm .cards .card .text p {
   margin-bottom: 20px;
+}
+#site_main .explore .container_sm .cards .card .btn_discover {
+  color: #2fad96;
+  cursor: pointer;
+  display: block;
+  padding: 20px 0;
+  border-top: 1px solid #eceeef;
 }

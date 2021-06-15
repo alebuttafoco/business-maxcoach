@@ -15,6 +15,7 @@
                         width: calc(100% / 3.2);
                         background-color: white;
                         border-radius: 5px;
+                        box-shadow: 0px 1px 15px 1px lightgray;
                         img{
                             width: 100%;
                             border-top-left-radius: 5px;
@@ -30,6 +31,12 @@
                             p{
                                 margin-bottom: 20px;
                             }
+                        }
+                        .btn_discover{
+                            @include btn_discover_now;
+                            display: block;
+                            padding: 20px 0;
+                            border-top: 1px solid $porcelain;
                         }
                     }
                 }
