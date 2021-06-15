@@ -1,3 +1,7 @@
+/* COLORS */
+/* color cube */
+/* median cut */
+/* material design */
 /* reset */
 * {
   box-sizing: border-box;
@@ -13,6 +17,7 @@
 #site_header #site_navbar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 #site_header #site_navbar #main_logo img {
   width: 150px;
@@ -23,4 +28,17 @@
 }
 #site_header #site_navbar .nav_options {
   display: flex;
+  align-items: center;
+}
+#site_header #site_navbar .nav_options a {
+  text-decoration: none;
+}
+#site_header #site_navbar .nav_options .fa-user-circle {
+  margin: 0 15px;
+}
+#site_header #site_navbar .nav_options .search_input input {
+  height: 55px;
+  padding-left: 10px;
+  border-style: none;
+  border-left: 1px solid;
 }
