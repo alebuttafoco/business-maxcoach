@@ -1,0 +1,18 @@
+#site_main{
+    section{
+        color: $text_color;
+        padding: 100px 0;
+        .container_sm{
+            .section_header{
+                text-align: center;
+                h3{
+                    @include green_title
+                }
+                h2{
+                    font-size: 1.7rem;
+                    margin: 40px 0;
+                }
+            }
+        }
+    }
+}

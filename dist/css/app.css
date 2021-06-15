@@ -141,3 +141,20 @@ a {
   cursor: pointer;
   padding: 10px;
 }
+
+#site_main section {
+  color: #333333;
+  padding: 100px 0;
+}
+#site_main section .container_sm .section_header {
+  text-align: center;
+}
+#site_main section .container_sm .section_header h3 {
+  color: #2fad96;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+#site_main section .container_sm .section_header h2 {
+  font-size: 1.7rem;
+  margin: 40px 0;
+}
