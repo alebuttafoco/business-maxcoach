@@ -29,6 +29,7 @@
             }
             .fa-user-circle{
                 margin: 0 15px;
+                cursor: pointer;
             }
             .search_input{
                 input{
@@ -38,6 +39,7 @@
                     border-left: 1px solid $porcelain;
                 }
                 .fa-search{
+                    cursor: pointer;
                     padding-right: 20px;
                 }
             }
