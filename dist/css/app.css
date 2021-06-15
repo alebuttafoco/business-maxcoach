@@ -95,6 +95,18 @@ a {
   line-height: 3.8rem;
   margin: 20px 0;
 }
+#site_header .jumbotron .container .jumbo_text p {
+  margin-bottom: 20px;
+}
+#site_header .jumbotron .container .jumbo_text span {
+  color: white;
+  background-color: #2fad96;
+  font-size: 0.7rem;
+  padding: 12px 25px;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+}
 #site_header .jumbotron .container .jumbo_img {
   width: 50%;
   position: relative;

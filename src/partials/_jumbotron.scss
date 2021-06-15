@@ -18,6 +18,12 @@
                     line-height: 3.8rem;
                     margin: 20px 0;
                 }
+                p{
+                    margin-bottom: 20px
+                }
+                span{
+                    @include btn-getstarted;
+                }
             }
             .jumbo_img{
                 width: 50%;
