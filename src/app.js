@@ -52,7 +52,23 @@ const app = new Vue({
             },
         ],
 
-        
+        exploreData: [
+            {
+                img:'./dist/img/home-business-service-slide-01-480x298.jpg',
+                title:'Consultative Training',
+                text: 'With a coach addessing multiple issues that are off balance, affecting your business in various unconsidered ways.',
+            },
+            {
+                img: './dist/img/home-business-service-slide-02-480x298.jpg',
+                title: 'Real Deal Coaching',
+                text: 'Brings an exeptionally powerful opportunity. Being able to accept, to work with that opportunity.',
+            },
+            {
+                img: './dist/img/home-business-service-slide-03-480x298.jpg',
+                title: 'Advisor training Program',
+                text: 'Getting high quality, entrepreneur mindset driven online business coaching, is what is needed.',
+            },
+        ]
     },
     methods:{},
     mounted(){}

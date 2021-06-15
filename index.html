@@ -116,11 +116,11 @@
 
                     <!-- cards -->
                     <div class="cards">
-                        <div class="card">
-                            <img src="" alt="">
-                            <h3></h3>
-                            <p></p>
-                            <span></span>
+                        <div class="card" v-for="data in exploreData">
+                            <img :src="data.img" alt="">
+                            <h3> {{data.title}} </h3>
+                            <p> {{data.text}} </p>
+                            <span>Discover now <i class="fas fa-long-arrow-alt-right"></i> </span>
                         </div>
                     </div>
                 </div>
