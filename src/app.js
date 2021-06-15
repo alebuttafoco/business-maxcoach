@@ -3,6 +3,7 @@ const app = new Vue({
     data:{
 
         navbarLinks:['Home', 'Pages', 'Courses', 'Features', 'Blog', 'Shop'],
+
         languages: [
             {
                 language: 'english',
@@ -17,6 +18,7 @@ const app = new Vue({
                 flag: 'de',
             }
         ],
+
         approachData:[
             {
                 img: '1',
@@ -48,7 +50,9 @@ const app = new Vue({
                 title: 'Self Development',
                 text: 'Business Coaching often keep you focus and develop you both in a professional and personal way.',
             },
-        ]
+        ],
+
+        
     },
     methods:{},
     mounted(){}
