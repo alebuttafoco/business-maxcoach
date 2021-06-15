@@ -1,34 +1,44 @@
 #site_header{
     #site_navbar{
-        display: flex;
+        @include flex-v-center;
         justify-content: space-between;
-        align-items: center;
         #main_logo{
+            padding-left: 100px;
             img{
                 width: 150px;
             }
         }
         .links{
             a{
-                @include general_link;
+                margin: 0 20px;
+                font-size: .9rem;
+                color: $charade;
             }
         }
         .nav_options{
-            display: flex;
-            align-items: center;
-            a{
-                text-decoration: none;
-                color: $charade;
+            @include flex-v-center;
+            .languages{
+                @include flex-v-center;
+                img{
+                    margin-right: 10px;
+                }
+                a{
+                    text-transform: uppercase;
+                    font-weight: bold;
+                }
             }
             .fa-user-circle{
                 margin: 0 15px;
             }
             .search_input{
                 input{
-                    height: 55px;
+                    height: 70px;
                     padding-left: 10px;
                     border-style: none;
                     border-left: 1px solid $porcelain;
+                }
+                .fa-search{
+                    padding-right: 20px;
                 }
             }
         }

@@ -19,32 +19,51 @@ body, input {
   font-size: 0.5rem;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 #site_header #site_navbar {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+}
+#site_header #site_navbar #main_logo {
+  padding-left: 100px;
 }
 #site_header #site_navbar #main_logo img {
   width: 150px;
 }
 #site_header #site_navbar .links a {
-  text-decoration: none;
   margin: 0 20px;
+  font-size: 0.9rem;
+  color: #282935;
 }
 #site_header #site_navbar .nav_options {
   display: flex;
   align-items: center;
 }
-#site_header #site_navbar .nav_options a {
-  text-decoration: none;
-  color: #282935;
+#site_header #site_navbar .nav_options .languages {
+  display: flex;
+  align-items: center;
+}
+#site_header #site_navbar .nav_options .languages img {
+  margin-right: 10px;
+}
+#site_header #site_navbar .nav_options .languages a {
+  text-transform: uppercase;
+  font-weight: bold;
 }
 #site_header #site_navbar .nav_options .fa-user-circle {
   margin: 0 15px;
 }
 #site_header #site_navbar .nav_options .search_input input {
-  height: 55px;
+  height: 70px;
   padding-left: 10px;
   border-style: none;
   border-left: 1px solid #eceeef;
+}
+#site_header #site_navbar .nav_options .search_input .fa-search {
+  padding-right: 20px;
 }

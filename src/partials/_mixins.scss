@@ -1,4 +1,4 @@
-@mixin general_link {
-    text-decoration: none;
-    margin: 0 20px;
+@mixin flex-v-center {
+    display: flex;
+    align-items: center;
 }
