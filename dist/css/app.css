@@ -204,3 +204,9 @@ a {
   border: 1px solid #eceeef;
   margin-right: 20px;
 }
+#site_main .help_you {
+  background-color: #f8f8f8;
+}
+#site_main .help_you .container_sm .section_header h2 {
+  font-size: 2.7rem;
+}
