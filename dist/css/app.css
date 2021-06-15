@@ -24,6 +24,11 @@ a {
   color: black;
 }
 
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
 #site_header #site_navbar {
   display: flex;
   align-items: center;
@@ -38,7 +43,7 @@ a {
 #site_header #site_navbar .links a {
   margin: 0 20px;
   font-size: 0.9rem;
-  color: #282935;
+  color: #3F3A64;
 }
 #site_header #site_navbar .nav_options {
   display: flex;
