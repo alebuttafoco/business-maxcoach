@@ -35,10 +35,13 @@ a {
 }
 
 .btn-get_started {
+  text-align: center;
+  display: inline-block;
   color: white;
   background-color: #2fad96;
   font-size: 0.7rem;
-  padding: 12px 25px;
+  padding: 12px 0;
+  width: 150px;
   border-radius: 5px;
   font-weight: 500;
   cursor: pointer;
@@ -166,15 +169,22 @@ a {
 #site_main section .container_sm .features .feature {
   width: calc(100% / 3);
 }
-#site_main section .container_sm .btn-learn_more {
+#site_main section .container_sm .bottons {
+  text-align: center;
+}
+#site_main section .container_sm .bottons .btn-learn_more {
+  text-align: center;
+  display: inline-block;
   color: white;
   background-color: #2fad96;
   font-size: 0.7rem;
-  padding: 12px 25px;
+  padding: 12px 0;
+  width: 150px;
   border-radius: 5px;
   font-weight: 500;
   cursor: pointer;
   color: #2fad96;
   background-color: white;
   border: 1px solid #eceeef;
+  margin-right: 20px;
 }
