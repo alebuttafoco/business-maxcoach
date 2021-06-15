@@ -3,6 +3,7 @@ const app = new Vue({
     data:{
 
         navbarLinks:['Home', 'Pages', 'Courses', 'Features', 'Blog', 'Shop'],
+        languages: ['english', 'italiano', 'español', 'français'],
 
     },
     methods:{},

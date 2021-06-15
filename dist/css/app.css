@@ -6,6 +6,10 @@
 }
 
 /* common rules */
+.fa-chevron-down {
+  font-size: 0.5rem;
+}
+
 #site_header #site_navbar {
   display: flex;
   justify-content: space-between;
@@ -17,6 +21,6 @@
   text-decoration: none;
   margin: 0 20px;
 }
-#site_header #site_navbar .links a .fa-chevron-down {
-  font-size: 0.5rem;
+#site_header #site_navbar .nav_options {
+  display: flex;
 }
