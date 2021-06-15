@@ -120,3 +120,19 @@ a {
   position: absolute;
   bottom: 0;
 }
+#site_header .jumbotron .container .tools {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 5px;
+  position: absolute;
+  right: 0;
+  top: 200px;
+}
+#site_header .jumbotron .container .tools i {
+  cursor: pointer;
+  padding: 10px;
+}
