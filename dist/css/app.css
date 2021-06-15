@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins&display=swap);
 /* COLORS */
 /* color cube */
 /* median cut */
@@ -10,6 +11,10 @@
 }
 
 /* common rules */
+body, input {
+  font-family: "Poppins", sans-serif;
+}
+
 .fa-chevron-down {
   font-size: 0.5rem;
 }
@@ -32,6 +37,7 @@
 }
 #site_header #site_navbar .nav_options a {
   text-decoration: none;
+  color: #282935;
 }
 #site_header #site_navbar .nav_options .fa-user-circle {
   margin: 0 15px;
@@ -40,5 +46,5 @@
   height: 55px;
   padding-left: 10px;
   border-style: none;
-  border-left: 1px solid;
+  border-left: 1px solid #eceeef;
 }

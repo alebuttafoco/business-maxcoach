@@ -18,6 +18,7 @@
             align-items: center;
             a{
                 text-decoration: none;
+                color: $charade;
             }
             .fa-user-circle{
                 margin: 0 15px;
@@ -27,7 +28,7 @@
                     height: 55px;
                     padding-left: 10px;
                     border-style: none;
-                    border-left: 1px solid //color;
+                    border-left: 1px solid $porcelain;
                 }
             }
         }
