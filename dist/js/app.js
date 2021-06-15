@@ -9,7 +9,9 @@
 
 var app = new Vue({
   el: "#app",
-  data: {},
+  data: {
+    navbarLinks: ['Home', 'Pages', 'Courses', 'Features', 'Blog', 'Shop']
+  },
   methods: {},
   mounted: function mounted() {}
 });

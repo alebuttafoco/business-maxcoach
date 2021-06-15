@@ -7,10 +7,41 @@
     <title>MaxCoach</title>
     <!-- CSS -->
     <link rel="stylesheet" href="./dist/css/app.css">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 </head>
 <body>
     <!-- my app -->
     <div id="app">
+
+        <!-- HEADER -->
+        <div id="site_header">
+
+            <!-- navbar -->
+            <nav id="site_navbar">
+
+                <!-- logo -->
+                <div id="main_logo">
+                    <img src="./dist/img/dark-logo.png" alt="">
+                </div>
+
+                <div class="links">
+                    <!-- generati da Vue -->
+                    <a href="#" v-for="link in navbarLinks"> {{link}} <i class="fas fa-chevron-down"></i> </a>
+                </div>
+
+                <!-- rigth options -->
+                <div class="nav_options">
+                    right
+                    <!-- link - language -->
+                    <!-- user icon -->
+                    <!-- searchinput + icona -->
+                </div>
+
+            </nav>
+
+        </div>
 
     </div>
 

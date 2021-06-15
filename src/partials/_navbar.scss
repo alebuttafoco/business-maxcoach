@@ -1,0 +1,19 @@
+#site_header{
+    #site_navbar{
+        display: flex;
+        justify-content: space-between;
+        #main_logo{
+            img{
+                width: 150px;
+            }
+        }
+        .links{
+            a{
+                @include general_link;
+                .fa-chevron-down{
+                    font-size: .5rem;
+                }
+            }
+        }
+    }
+}
