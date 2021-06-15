@@ -13,6 +13,13 @@
                     margin: 40px 0;
                 }
             }
+            .features{
+                display: flex;
+                flex-wrap: wrap;
+                .feature{
+                    width: calc(100% / 3);
+                }
+            }
         }
     }
 }

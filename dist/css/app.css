@@ -158,3 +158,10 @@ a {
   font-size: 1.7rem;
   margin: 40px 0;
 }
+#site_main section .container_sm .features {
+  display: flex;
+  flex-wrap: wrap;
+}
+#site_main section .container_sm .features .feature {
+  width: calc(100% / 3);
+}
