@@ -72,3 +72,7 @@ a {
 #site_header #site_navbar .nav_options .search_input .fa-search {
   padding-right: 20px;
 }
+
+#site_header .jumbotron {
+  background-color: #EFF2F6;
+}
