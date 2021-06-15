@@ -117,7 +117,7 @@ a {
 #site_header .jumbotron .container .jumbo_img {
   width: 50%;
   position: relative;
-  background-image: url("/dist/img/home-business-hero-global-image.png");
+  background-image: url("../../dist/img/home-business-hero-global-image.png");
   background-repeat: no-repeat;
 }
 #site_header .jumbotron .container .jumbo_img img {
