@@ -20,6 +20,12 @@
                     width: calc(100% / 3);
                 }
             }
+            .btn-learn_more{
+                @include btn-getstarted;
+                color: $secondary;
+                background-color: white;
+                border: 1px solid $porcelain;
+            }
         }
     }
 }

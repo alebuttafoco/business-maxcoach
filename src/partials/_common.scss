@@ -28,3 +28,7 @@ a{
     width: 1280px;
     margin: auto;
 }
+
+.btn-get_started{
+    @include btn-getstarted;
+}
