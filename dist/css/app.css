@@ -208,6 +208,9 @@ a {
 #site_main .explore {
   background-color: #f8f8f8;
 }
+#site_main .explore .container_sm {
+  text-align: center;
+}
 #site_main .explore .container_sm .section_header h2 {
   font-size: 2.7rem;
 }
@@ -244,4 +247,9 @@ a {
   display: block;
   padding: 20px 0;
   border-top: 1px solid #eceeef;
+}
+#site_main .explore .container_sm i {
+  font-size: 0.8rem;
+  margin-top: 30px;
+  padding: 10px;
 }

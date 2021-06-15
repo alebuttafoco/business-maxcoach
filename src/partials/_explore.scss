@@ -2,6 +2,7 @@
     .explore{
             background-color: $explore_section_color;
             .container_sm{
+                text-align: center;
                 .section_header{
                     h2{
                         font-size: 2.7rem;
@@ -39,6 +40,11 @@
                             border-top: 1px solid $porcelain;
                         }
                     }
+                }
+                i{
+                    font-size: .8rem;
+                    margin-top: 30px;
+                    padding: 10px;
                 }
             }
         }
