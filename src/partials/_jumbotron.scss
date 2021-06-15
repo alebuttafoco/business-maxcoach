@@ -7,10 +7,8 @@
             .jumbo_text{
                 width: 50%;
                 padding: 180px;
-                h2{
-                    color: $secondary;
-                    font-weight: 500;
-                    font-size: 1.3rem;
+                h3{
+                    @include green_title
                 }
                 h1{
                     font-size: 3rem;

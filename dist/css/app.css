@@ -29,6 +29,11 @@ a {
   margin: auto;
 }
 
+.container_sm {
+  width: 1280px;
+  margin: auto;
+}
+
 #site_header #site_navbar {
   display: flex;
   align-items: center;
@@ -86,7 +91,7 @@ a {
   width: 50%;
   padding: 180px;
 }
-#site_header .jumbotron .container .jumbo_text h2 {
+#site_header .jumbotron .container .jumbo_text h3 {
   color: #2fad96;
   font-weight: 500;
   font-size: 1.3rem;

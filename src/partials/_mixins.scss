@@ -12,3 +12,9 @@
     font-weight: 500;
     cursor: pointer;
 }
+
+@mixin green_title {
+    color: $secondary;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
