@@ -118,9 +118,11 @@
                     <div class="cards">
                         <div class="card" v-for="data in exploreData">
                             <img :src="data.img" alt="">
-                            <h3> {{data.title}} </h3>
-                            <p> {{data.text}} </p>
-                            <span>Discover now <i class="fas fa-long-arrow-alt-right"></i> </span>
+                            <div class="text">
+                                <h3> {{data.title}} </h3>
+                                <p> {{data.text}} </p>
+                            </div>
+                            <span class="btn_discover">Discover now <i class="fas fa-long-arrow-alt-right"></i> </span>
                         </div>
                     </div>
                 </div>

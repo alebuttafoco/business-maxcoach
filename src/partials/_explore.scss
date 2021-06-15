@@ -9,8 +9,28 @@
                 }
                 .cards{
                     display: flex;
+                    justify-content: space-between;
                     .card{
-                        width: calc(100% / 3);
+                        text-align: center;
+                        width: calc(100% / 3.2);
+                        background-color: white;
+                        border-radius: 5px;
+                        img{
+                            width: 100%;
+                            border-top-left-radius: 5px;
+                            border-top-right-radius: 5px;
+                        }
+                        .text{
+                            padding: 0 35px;
+                            h3{
+                                margin-top: 20px;
+                                margin-bottom: 15px;
+                                font-weight: 600;
+                            }
+                            p{
+                                margin-bottom: 20px;
+                            }
+                        }
                     }
                 }
             }

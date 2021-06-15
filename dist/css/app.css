@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap);
 /* COLORS */
 /* color cube */
 /* median cut */
@@ -213,7 +213,27 @@ a {
 }
 #site_main .explore .container_sm .cards {
   display: flex;
+  justify-content: space-between;
 }
 #site_main .explore .container_sm .cards .card {
-  width: calc(100% / 3);
+  text-align: center;
+  width: calc(100% / 3.2);
+  background-color: white;
+  border-radius: 5px;
+}
+#site_main .explore .container_sm .cards .card img {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+#site_main .explore .container_sm .cards .card .text {
+  padding: 0 35px;
+}
+#site_main .explore .container_sm .cards .card .text h3 {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+#site_main .explore .container_sm .cards .card .text p {
+  margin-bottom: 20px;
 }
