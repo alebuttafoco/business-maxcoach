@@ -13,16 +13,13 @@ var app = new Vue({
     navbarLinks: ['Home', 'Pages', 'Courses', 'Features', 'Blog', 'Shop'],
     languages: [{
       language: 'english',
-      flag: 'gb'
-    }, {
-      language: 'italiano',
-      flag: 'it'
-    }, {
-      language: 'español',
-      flag: 'es'
+      flag: 'en'
     }, {
       language: 'français',
       flag: 'fr'
+    }, {
+      language: 'deutsche',
+      flag: 'de'
     }],
     approachData: [{
       img: '1',

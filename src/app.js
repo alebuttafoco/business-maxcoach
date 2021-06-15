@@ -6,19 +6,15 @@ const app = new Vue({
         languages: [
             {
                 language: 'english',
-                flag: 'gb',
-            },
-            {
-                language: 'italiano',
-                flag: 'it',
-            },
-            {
-                language: 'español',
-                flag: 'es',
+                flag: 'en',
             },
             {
                 language: 'français',
                 flag: 'fr',
+            },
+            {
+                language: 'deutsche',
+                flag: 'de',
             }
         ],
         approachData:[
