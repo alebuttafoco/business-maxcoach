@@ -168,6 +168,7 @@ a {
 }
 #site_main section .container_sm .features .feature {
   width: calc(100% / 3);
+  margin-bottom: 50px;
 }
 #site_main section .container_sm .bottons {
   text-align: center;
