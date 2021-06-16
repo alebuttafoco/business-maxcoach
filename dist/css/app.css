@@ -248,7 +248,7 @@ a {
   padding: 20px 0;
   border-top: 1px solid #eceeef;
 }
-#site_main .explore .container_sm i {
+#site_main .explore .container_sm .fa-circle {
   font-size: 0.8rem;
   margin-top: 30px;
   padding: 10px;
