@@ -371,8 +371,10 @@ a {
   background-size: 60%, 8%;
   background-position: 120% 90%, 5% 95%;
 }
+#site_main .video_section .container {
+  display: flex;
+}
 #site_main .video_section .container .cover_video {
-  display: inline-block;
   width: 650px !important;
   height: 450px;
   width: 50%;
@@ -387,4 +389,11 @@ a {
 }
 #site_main .video_section .container .cover_video img {
   cursor: pointer;
+}
+#site_main .video_section .container .video_text {
+  width: calc(1280px / 2);
+  color: white;
+}
+#site_main .video_section .container .video_text h2 {
+  font-size: 2.7rem;
 }

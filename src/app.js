@@ -90,6 +90,21 @@ const app = new Vue({
                 title: 'Academic Listening and Note-taking',
                 price: '26',
             },
+        ],
+
+        FAQ: [
+            {
+                question: 'How can we help?',
+                answer: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa repellendus placeat blanditiis sequi reiciendis maiores odio dolorem! Aut unde magnam vitae atque, iusto ipsa illum nemo quod accusantium rem dicta reiciendis natus necessitatibus est optio quam culpa officiis deserunt delectus. Id ullam in ratione accusamus blanditiis omnis veritatis velit quas.'
+            },
+            {
+                question: 'Why would I need a business COACH?',
+                answer: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa repellendus placeat blanditiis sequi reiciendis maiores odio dolorem! Aut unde magnam vitae atque, iusto ipsa illum nemo quod accusantium rem dicta reiciendis natus necessitatibus est optio quam culpa officiis deserunt delectus. Id ullam in ratione accusamus blanditiis omnis veritatis velit quas.'
+            },
+            {
+                question: 'Whay is one-on-one coaching?',
+                answer: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa repellendus placeat blanditiis sequi reiciendis maiores odio dolorem! Aut unde magnam vitae atque, iusto ipsa illum nemo quod accusantium rem dicta reiciendis natus necessitatibus est optio quam culpa officiis deserunt delectus. Id ullam in ratione accusamus blanditiis omnis veritatis velit quas.'
+            },
         ]
     },
     methods:{},
