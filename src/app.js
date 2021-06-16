@@ -95,15 +95,18 @@ const app = new Vue({
         FAQ: [
             {
                 question: 'How can we help?',
-                answer: 'How many courses you\' been on, using however many techniques and methods. Unless you\'ve come to realize the value of mindset, then you\'ve yet to understand how succes comes. With every else\'s mindset involved impacting too. Hence why business coaching is so crucial for success. '
+                answer: 'How many courses you\' been on, using however many techniques and methods. Unless you\'ve come to realize the value of mindset, then you\'ve yet to understand how succes comes. With every else\'s mindset involved impacting too. Hence why business coaching is so crucial for success. ',
+                active: true,
             },
             {
                 question: 'Why would I need a business COACH?',
-                answer: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa repellendus placeat blanditiis sequi reiciendis maiores odio dolorem! Aut unde magnam vitae atque, iusto ipsa illum nemo quod accusantium rem dicta reiciendis natus necessitatibus est optio quam culpa officiis deserunt delectus. Id ullam in ratione accusamus blanditiis omnis veritatis velit quas.'
+                answer: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa repellendus placeat blanditiis sequi reiciendis maiores odio dolorem! Aut unde magnam vitae atque, iusto ipsa illum nemo quod accusantium rem dicta reiciendis natus necessitatibus est optio quam culpa officiis deserunt delectus. Id ullam in ratione accusamus blanditiis omnis veritatis velit quas.',
+                active: false,
             },
             {
                 question: 'Whay is one-on-one coaching?',
-                answer: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa repellendus placeat blanditiis sequi reiciendis maiores odio dolorem! Aut unde magnam vitae atque, iusto ipsa illum nemo quod accusantium rem dicta reiciendis natus necessitatibus est optio quam culpa officiis deserunt delectus. Id ullam in ratione accusamus blanditiis omnis veritatis velit quas.'
+                answer: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa repellendus placeat blanditiis sequi reiciendis maiores odio dolorem! Aut unde magnam vitae atque, iusto ipsa illum nemo quod accusantium rem dicta reiciendis natus necessitatibus est optio quam culpa officiis deserunt delectus. Id ullam in ratione accusamus blanditiis omnis veritatis velit quas.',
+                active: false,
             },
         ]
     },
