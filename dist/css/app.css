@@ -172,6 +172,7 @@ a {
   align-items: center;
 }
 #site_header #site_navbar .nav_options .languages {
+  position: relative;
   display: flex;
   align-items: center;
 }
@@ -181,6 +182,19 @@ a {
 #site_header #site_navbar .nav_options .languages a {
   text-transform: uppercase;
   font-weight: bold;
+}
+#site_header #site_navbar .nav_options .languages .dropdown {
+  z-index: 1;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 40px;
+  right: -10px;
+}
+#site_header #site_navbar .nav_options .languages .dropdown .lang {
+  display: flex;
+  padding: 10px;
 }
 #site_header #site_navbar .nav_options .fa-user-circle {
   margin: 0 15px;
