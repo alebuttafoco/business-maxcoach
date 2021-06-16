@@ -194,15 +194,15 @@
 
                     <!-- events -->
                     <div class="cards">
-                        <div class="card">
+                        <div class="card" v-for="data in events">
                             <div class="info">
-                                <span> <i class="fas fa-map-marker-alt"></i> posto</span>
-                                <h4>Nome evento</h4>
+                                <span> <i class="fas fa-map-marker-alt"></i> {{data.place}}</span>
+                                <h4>{{data.name}}</h4>
                             </div>
 
                             <div class="date">
-                                <span> 20 </span>
-                                <span> GIU </span>
+                                <span> {{data.day}} </span>
+                                <span> {{data.month}} </span>
                                 <span class="btn_get_ticket">Get ticket</span>
                             </div>
                         </div>

@@ -128,28 +128,28 @@ const app = new Vue({
             {
                 name: 'International Art Fair 2020',
                 place: 'Hamburg, Germany',
-                date: '23-11-2020',
+                date: '11-23-2020',
                 get day() { return dayjs(this.date).format("DD") },
                 get month() { return dayjs(this.date).format("MMM") }
             },
             {
                 name: 'Street Performance: Call for Artists',
                 place: 'Illinois, US',
-                date: '15-12-2020',
+                date: '12-15-2020',
                 get day() { return dayjs(this.date).format("DD") },
                 get month() { return dayjs(this.date).format("MMM") }
             },
             {
                 name: 'Consumer Food Safety Education Conference',
                 place: 'Illinois, US',
-                date: '22-07-2020',
+                date: '07-22-2020',
                 get day() { return dayjs(this.date).format("DD") },
                 get month() { return dayjs(this.date).format("MMM") }
             },
             {
                 name: 'How meditation improve your mental health?',
                 place: 'Dubai',
-                date: '12-08-2020',
+                date: '08-12-2020',
                 get day() { return dayjs(this.date).format("DD") },
                 get month() { return dayjs(this.date).format("MMM") }
             },
