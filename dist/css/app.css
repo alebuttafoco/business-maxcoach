@@ -191,10 +191,14 @@ a {
   position: absolute;
   top: 40px;
   right: -10px;
+  display: none;
 }
 #site_header #site_navbar .nav_options .languages .dropdown .lang {
   display: flex;
   padding: 10px;
+}
+#site_header #site_navbar .nav_options .languages:hover .dropdown {
+  display: block;
 }
 #site_header #site_navbar .nav_options .fa-user-circle {
   margin: 0 15px;
