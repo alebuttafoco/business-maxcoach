@@ -43,7 +43,9 @@ a{
     padding: 20px 0;
     border-top: 1px solid $porcelain;
     &:hover{
-        @include btn_discover_now-hover
+        @include btn_discover_now-hover;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
     }
 }
 .btn-learn_more{

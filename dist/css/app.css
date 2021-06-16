@@ -73,6 +73,8 @@ a {
   color: white;
   background-color: #2fad96;
   cursor: pointer;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .btn-learn_more {
