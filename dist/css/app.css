@@ -3,6 +3,36 @@
 /* color cube */
 /* median cut */
 /* material design */
+.btn-learn_more {
+  text-align: center;
+  display: inline-block;
+  color: white;
+  background-color: #2fad96;
+  font-size: 0.7rem;
+  padding: 12px 0;
+  width: 150px;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+  color: #2fad96;
+  background-color: white;
+  border: 1px solid #eceeef;
+  margin-right: 20px;
+}
+.btn-learn_more:hover {
+  text-align: center;
+  display: inline-block;
+  color: white;
+  background-color: #2fad96;
+  font-size: 0.7rem;
+  padding: 12px 0;
+  width: 150px;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #3F3A64;
+}
+
 /* reset */
 * {
   box-sizing: border-box;
@@ -46,6 +76,32 @@ a {
   width: 150px;
   border-radius: 5px;
   font-weight: 500;
+  cursor: pointer;
+}
+.btn-get_started:hover {
+  text-align: center;
+  display: inline-block;
+  color: white;
+  background-color: #2fad96;
+  font-size: 0.7rem;
+  padding: 12px 0;
+  width: 150px;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #3F3A64;
+}
+
+.btn_discover {
+  color: #2fad96;
+  cursor: pointer;
+  display: block;
+  padding: 20px 0;
+  border-top: 1px solid #eceeef;
+}
+.btn_discover:hover {
+  color: white;
+  background-color: #2fad96;
   cursor: pointer;
 }
 
@@ -188,22 +244,6 @@ a {
 #site_main section .container_sm .bottons {
   text-align: center;
 }
-#site_main section .container_sm .bottons .btn-learn_more {
-  text-align: center;
-  display: inline-block;
-  color: white;
-  background-color: #2fad96;
-  font-size: 0.7rem;
-  padding: 12px 0;
-  width: 150px;
-  border-radius: 5px;
-  font-weight: 500;
-  cursor: pointer;
-  color: #2fad96;
-  background-color: white;
-  border: 1px solid #eceeef;
-  margin-right: 20px;
-}
 
 #site_main .explore {
   background-color: #f8f8f8;
@@ -240,13 +280,6 @@ a {
 }
 #site_main .explore .container_sm .cards .card .text p {
   margin-bottom: 20px;
-}
-#site_main .explore .container_sm .cards .card .btn_discover {
-  color: #2fad96;
-  cursor: pointer;
-  display: block;
-  padding: 20px 0;
-  border-top: 1px solid #eceeef;
 }
 #site_main .explore .container_sm .fa-circle {
   font-size: 0.8rem;

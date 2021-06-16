@@ -33,4 +33,16 @@ a{
 
 .btn-get_started{
     @include btn-getstarted;
+    &:hover{
+        @include btn-getstarted-hover;
+    }
+}
+.btn_discover{
+    @include btn_discover_now;
+    display: block;
+    padding: 20px 0;
+    border-top: 1px solid $porcelain;
+    &:hover{
+        @include btn_discover_now-hover
+    }
 }

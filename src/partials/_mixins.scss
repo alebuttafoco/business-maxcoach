@@ -15,6 +15,11 @@
     font-weight: 500;
     cursor: pointer;
 }
+@mixin btn-getstarted-hover {
+   @include btn-getstarted;
+    background-color: $logo_color;
+
+}
 
 @mixin green_title {
     color: $secondary;
@@ -25,4 +30,19 @@
 @mixin btn_discover_now {
     color: $secondary;
     cursor: pointer;
+}
+@mixin btn_discover_now-hover {
+    color: white;
+    background-color: $secondary;
+    cursor: pointer;
+}
+.btn-learn_more{
+    @include btn-getstarted;
+    color: $secondary;
+    background-color: white;
+    border: 1px solid $porcelain;
+    margin-right: 20px;
+    &:hover{
+        @include btn-getstarted-hover;
+    }
 }

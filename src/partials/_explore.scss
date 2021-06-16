@@ -33,12 +33,6 @@
                                 margin-bottom: 20px;
                             }
                         }
-                        .btn_discover{
-                            @include btn_discover_now;
-                            display: block;
-                            padding: 20px 0;
-                            border-top: 1px solid $porcelain;
-                        }
                     }
                 }
                 .fa-circle{
