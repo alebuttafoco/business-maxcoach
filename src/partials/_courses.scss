@@ -17,6 +17,7 @@
                 display: flex;
                 justify-content: space-between;
                 .card{
+                    cursor: pointer;
                     width: calc(100% / 4.4);
                     height: 500px;
                     background-size: cover;
