@@ -301,11 +301,11 @@ a {
   color: #bcbcbc;
 }
 
-#site_main .courses .container p {
+#site_main .courses .container > p {
   text-align: center;
   margin-top: 50px;
 }
-#site_main .courses .container p a {
+#site_main .courses .container > p a {
   border-bottom: 1px solid #eceeef;
 }
 #site_main .courses .container .section_header h2 {
@@ -335,16 +335,33 @@ a {
   position: absolute;
   bottom: 0;
 }
-#site_main .courses .container .cards .card .text span {
+#site_main .courses .container .cards .card .text > span {
   color: #2fad96;
   font-weight: 700;
   font-size: 1.4rem;
 }
-#site_main .courses .container .cards .card .text span span:first-child {
+#site_main .courses .container .cards .card .text > span span:first-child {
   font-size: 1.4rem;
 }
-#site_main .courses .container .cards .card .text span span:last-child {
+#site_main .courses .container .cards .card .text > span span:last-child {
   font-size: 1.2rem;
+}
+#site_main .courses .container .cards .card .text .text_hover {
+  display: none;
+  font-size: 0.9rem;
+  line-height: 1.6rem;
+}
+#site_main .courses .container .cards .card .text .text_hover .info {
+  margin: 15px 0;
+}
+#site_main .courses .container .cards .card .text .text_hover .info span {
+  padding-right: 20px;
+}
+#site_main .courses .container .cards .card .text .text_hover .info span i {
+  padding-right: 5px;
+}
+#site_main .courses .container .cards .card:hover .text_hover {
+  display: block;
 }
 
 #site_main .video_section {

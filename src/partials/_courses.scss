@@ -1,7 +1,7 @@
 #site_main{
     .courses{
         .container{
-            p{
+            &>p{
                 text-align: center;
                 margin-top: 50px;
                 a{
@@ -31,11 +31,11 @@
                     }
                     .text{
                         color: white;
-                            padding: 25px;
-                            position: absolute;
-                            bottom: 0;
-                            span{
-                                color: $secondary;
+                        padding: 25px;
+                        position: absolute;
+                        bottom: 0;
+                        &>span{
+                            color: $secondary;
                                 font-weight: 700;
                                 font-size: 1.4rem;
                                 span:first-child{
@@ -44,7 +44,26 @@
                                 span:last-child{
                                     font-size: 1.2rem;
                                 }
+                        }
+                        .text_hover{
+                            display: none;
+                            font-size: .9rem;
+                            line-height: 1.6rem;
+                            .info{
+                                margin: 15px 0;
+                                span{
+                                    padding-right: 20px;
+                                    i{
+                                        padding-right: 5px;
+                                    }
+                                }
                             }
+                        }
+                    }
+                    &:hover{
+                        .text_hover{
+                            display: block;
+                        }
                     }
                 }
             }
