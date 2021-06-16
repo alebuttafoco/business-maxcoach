@@ -281,8 +281,19 @@ a {
 #site_main .explore .container_sm .cards .card .text p {
   margin-bottom: 20px;
 }
-#site_main .explore .container_sm .fa-circle {
+#site_main .explore .container_sm .circles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#site_main .explore .container_sm .circles .circle_active {
   font-size: 0.8rem;
   margin-top: 30px;
   padding: 10px;
+}
+#site_main .explore .container_sm .circles .circle_off {
+  font-size: 0.5rem;
+  margin-top: 30px;
+  padding: 10px;
+  color: #bcbcbc;
 }

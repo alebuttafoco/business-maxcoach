@@ -35,10 +35,20 @@
                         }
                     }
                 }
-                .fa-circle{
-                    font-size: .8rem;
-                    margin-top: 30px;
-                    padding: 10px;
+                .circles{
+                    @include flex-v-center;
+                    justify-content: center;
+                    .circle_active{
+                        font-size: .8rem;
+                        margin-top: 30px;
+                        padding: 10px;
+                    }
+                    .circle_off{
+                        font-size: .5rem;
+                        margin-top: 30px;
+                        padding: 10px;
+                        color: $silver;
+                    }
                 }
             }
         }

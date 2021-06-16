@@ -1,7 +1,6 @@
 const app = new Vue({
     el: "#app",
     data:{
-
         navbarLinks:['Home', 'Pages', 'Courses', 'Features', 'Blog', 'Shop'],
 
         languages: [
@@ -70,6 +69,8 @@ const app = new Vue({
             },
         ]
     },
-    methods:{},
+    methods:{
+
+    },
     mounted(){}
 })

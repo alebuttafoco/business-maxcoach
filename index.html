@@ -126,7 +126,9 @@
                         </div>
                     </div>
 
-                    <i class="fas fa-circle" v-for="i in exploreData"></i>
+                    <div class="circles">
+                        <i :class="{circle_active : i == 0, circle_off : i != 0}" class="fas fa-circle"  v-for="(el, i) in exploreData"></i>
+                    </div>
                 </div>
             </section>
         </div>
