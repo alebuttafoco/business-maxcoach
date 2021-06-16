@@ -1,5 +1,9 @@
 #site_main{
     .video_section{
+        height: 700px;
         background-color: $video_section_color;
+        background-image: url(../../dist/img/home-business-hero-global-image.png);
+        background-repeat: no-repeat;
+        background-position:right;
     }
 }
