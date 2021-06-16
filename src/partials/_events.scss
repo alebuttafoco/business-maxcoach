@@ -7,18 +7,25 @@
                 }
             }
             .cards{
-                width: calc(100% / 2.2);
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
                 .card{
+                    width: calc(100% / 2.05);
                     display: flex;
                     justify-content: space-between;
                     background-color: $color_light;
-                    padding: 20px;
+                    padding: 25px;
+                    margin: 17px 0;
                     .info{
                         span{
                             color: gray;
+                            font-size: .8rem;
                         }
                         h4{
                             padding: 3px 0;
+                            font-size: 1.3rem;
+                            font-weight: 600;
                         }
                     }
                     .date{
@@ -28,12 +35,13 @@
                         span{
                             padding: 4px 0;
                         }
-                        span:nth-child(1){
+                        .day{
                             color: $secondary;
                             font-size: 2.5rem;
                             line-height: 1.8rem;
                         }
-                        span:nth-child(2){
+                        .month{
+                            text-transform: uppercase;
                             font-size: 1rem;
                             font-weight: 600;
                         }

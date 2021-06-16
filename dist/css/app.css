@@ -451,19 +451,26 @@ a {
   font-size: 2.7rem;
 }
 #site_main .events .container_sm .cards {
-  width: calc(100% / 2.2);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 #site_main .events .container_sm .cards .card {
+  width: calc(100% / 2.05);
   display: flex;
   justify-content: space-between;
   background-color: #f8f8f8;
-  padding: 20px;
+  padding: 25px;
+  margin: 17px 0;
 }
 #site_main .events .container_sm .cards .card .info span {
   color: gray;
+  font-size: 0.8rem;
 }
 #site_main .events .container_sm .cards .card .info h4 {
   padding: 3px 0;
+  font-size: 1.3rem;
+  font-weight: 600;
 }
 #site_main .events .container_sm .cards .card .date {
   display: flex;
@@ -473,12 +480,13 @@ a {
 #site_main .events .container_sm .cards .card .date span {
   padding: 4px 0;
 }
-#site_main .events .container_sm .cards .card .date span:nth-child(1) {
+#site_main .events .container_sm .cards .card .date .day {
   color: #2fad96;
   font-size: 2.5rem;
   line-height: 1.8rem;
 }
-#site_main .events .container_sm .cards .card .date span:nth-child(2) {
+#site_main .events .container_sm .cards .card .date .month {
+  text-transform: uppercase;
   font-size: 1rem;
   font-weight: 600;
 }
