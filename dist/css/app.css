@@ -321,6 +321,11 @@ a {
   border-radius: 5px;
   position: relative;
 }
+#site_main .courses .container .cards .card .overlay {
+  height: 100%;
+  border-radius: 5px;
+  background: linear-gradient(180deg, rgba(181, 181, 181, 0) 22.4%, #000000 100%);
+}
 #site_main .courses .container .cards .card .text {
   color: white;
   padding: 25px;

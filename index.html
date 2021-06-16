@@ -143,14 +143,16 @@
                     <!-- cards -->
                     <div class="cards">
                         <div class="card" v-for="data in coursesData" :style="{ backgroundImage: 'url(' + data.img + ')' }" >
-                            <div class="text">
-                                <span> <span v-if="!isNaN(data.price)">$</span>{{data.price}}<span v-if="!isNaN(data.price)">.00</span> </span>
-                                <h3> {{data.title}} </h3>
+                            <div class="overlay">
+                                <div class="text">
+                                    <span> <span v-if="!isNaN(data.price)">$</span>{{data.price}}<span v-if="!isNaN(data.price)">.00</span> </span>
+                                    <h3> {{data.title}} </h3>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <p>Take the control of their life back and start doing things to make their <br> 
-                        dream come true. <strong><a href="#">View all courses <i class="fas fa-long-arrow-alt-right"></i> </a></strong> </p>
+                    dream come true. <strong><a href="#">View all courses <i class="fas fa-long-arrow-alt-right"></i> </a></strong> </p>
                 </div>
             </section>
         </div>
