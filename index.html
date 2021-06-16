@@ -185,6 +185,7 @@
 
             <!-- upcoming events -->
             <section class="events">
+
                 <div class="container_sm">
                     <div class="section_header">
                         <h3>Wanna transform you life?</h3>
@@ -192,10 +193,22 @@
                     </div>
 
                     <!-- events -->
-                    <div v-for="data in events">
-                        {{data.name}}
+                    <div class="cards">
+                        <div class="card">
+                            <div class="info">
+                                <span> <i class="fas fa-map-marker-alt"></i> posto</span>
+                                <h4>Nome evento</h4>
+                            </div>
+
+                            <div class="date">
+                                <span> 20 </span>
+                                <span> GIU </span>
+                                <span class="btn_get_ticket">Get ticket</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
             </section>
 
         </div>

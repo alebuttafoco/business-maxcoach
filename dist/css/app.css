@@ -107,6 +107,36 @@ a {
   background-color: #3F3A64;
 }
 
+.btn_get_ticket {
+  text-align: center;
+  display: inline-block;
+  color: white;
+  background-color: #2fad96;
+  font-size: 0.7rem;
+  padding: 12px 0;
+  width: 150px;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 7px 0px;
+  width: 100px;
+}
+.btn_get_ticket:hover {
+  text-align: center;
+  display: inline-block;
+  color: white;
+  background-color: #2fad96;
+  font-size: 0.7rem;
+  padding: 12px 0;
+  width: 150px;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #3F3A64;
+  padding: 7px 0px;
+  width: 100px;
+}
+
 .section_header {
   text-align: center;
 }
@@ -417,6 +447,32 @@ a {
   padding-bottom: 20px;
 }
 
-#site_main .events .section_header h2 {
+#site_main .events .container_sm .section_header h2 {
   font-size: 2.7rem;
+}
+#site_main .events .container_sm .cards {
+  width: calc(100% / 2.2);
+}
+#site_main .events .container_sm .cards .card {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+#site_main .events .container_sm .cards .card .date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#site_main .events .container_sm .cards .card .date span {
+  padding: 3px 0;
+}
+#site_main .events .container_sm .cards .card .date span:nth-child(1) {
+  color: #2fad96;
+  font-size: 2.5rem;
+  line-height: 2rem;
+}
+#site_main .events .container_sm .cards .card .date span:nth-child(2) {
+  font-size: 1rem;
+  font-weight: 600;
 }

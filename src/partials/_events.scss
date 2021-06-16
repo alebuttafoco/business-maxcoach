@@ -1,8 +1,36 @@
 #site_main{
     .events{
-        .section_header{
-            h2{
-                font-size: 2.7rem;
+        .container_sm{
+            .section_header{
+                h2{
+                    font-size: 2.7rem;
+                }
+            }
+            .cards{
+                width: calc(100% / 2.2);
+                .card{
+                    display: flex;
+                    justify-content: space-between;
+                    background-color: $color_light;
+                    padding: 20px;
+                    .date{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        span{
+                            padding: 3px 0;
+                        }
+                        span:nth-child(1){
+                            color: $secondary;
+                            font-size: 2.5rem;
+                            line-height: 2rem;
+                        }
+                        span:nth-child(2){
+                            font-size: 1rem;
+                            font-weight: 600;
+                        }
+                    }
+                }
             }
         }
     }

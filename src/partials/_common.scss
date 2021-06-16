@@ -58,6 +58,16 @@ a{
         @include btn-getstarted-hover;
     }
 }
+.btn_get_ticket{
+    @include btn-getstarted;
+    &:hover{
+        @include btn-getstarted-hover;
+        padding: 7px 0px;
+        width: 100px;
+    }
+    padding: 7px 0px;
+    width: 100px;
+}
 .section_header{
     text-align: center;
     h3{
