@@ -56,3 +56,14 @@ a{
         @include btn-getstarted-hover;
     }
 }
+.section_header{
+    text-align: center;
+    h3{
+        @include green_title
+    }
+    h2{
+        font-size: 1.7rem;
+        margin-top: 40px;
+        margin-bottom: 80px;
+    }
+}

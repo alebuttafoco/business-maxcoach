@@ -105,6 +105,20 @@ a {
   background-color: #3F3A64;
 }
 
+.section_header {
+  text-align: center;
+}
+.section_header h3 {
+  color: #2fad96;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+.section_header h2 {
+  font-size: 1.7rem;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
 #site_header #site_navbar {
   display: flex;
   align-items: center;
@@ -207,19 +221,6 @@ a {
 #site_main section {
   color: #333333;
   padding: 100px 0;
-}
-#site_main section .container_sm .section_header {
-  text-align: center;
-}
-#site_main section .container_sm .section_header h3 {
-  color: #2fad96;
-  font-weight: 500;
-  font-size: 1.3rem;
-}
-#site_main section .container_sm .section_header h2 {
-  font-size: 1.7rem;
-  margin-top: 40px;
-  margin-bottom: 80px;
 }
 #site_main section .container_sm .features {
   display: flex;

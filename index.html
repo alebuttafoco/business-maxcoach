@@ -131,6 +131,29 @@
                     </div>
                 </div>
             </section>
+
+            <!-- explore courses-->
+            <section class="explore_courses">
+                <div class="container">
+                    <div class="section_header">
+                        <h3>Let's Dream Big Together</h3>
+                        <h2>Explore How can I help you</h2>
+                    </div>
+            
+                    <!-- cards -->
+                    <div class="cards">
+                        <div class="card" v-for="data in exploreData">
+                            <img :src="data.img" alt="">
+                            <div class="text">
+                                <h3>  </h3>
+                                <p>  </p>
+                            </div>
+                            <span class="btn_discover">Discover now <i class="fas fa-long-arrow-alt-right"></i> </span>
+                        </div>
+                        <p></p>
+                    </div>
+                </div>
+            </section>
         </div>
 
     </div>
