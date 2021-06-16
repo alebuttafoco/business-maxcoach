@@ -298,3 +298,7 @@ a {
   padding: 10px;
   color: #bcbcbc;
 }
+
+#site_main .courses .container .section_header h2 {
+  font-size: 2.7rem;
+}

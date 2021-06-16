@@ -67,6 +67,29 @@ const app = new Vue({
                 title: 'Advisor training Program',
                 text: 'Getting high quality, entrepreneur mindset driven online business coaching, is what is needed.',
             },
+        ],
+
+        coursesData: [
+            {
+                img: './dist/img/course-01.jpg',
+                title: 'Learning to Write as a Professional Author',
+                price: '40.00',
+            },
+            {
+                img: './dist/img/course-02.jpg',
+                title: 'Customer-centric Info-Tech Strategies',
+                price: 'Free',
+            },
+            {
+                img: './dist/img/course-03.jpg',
+                title: 'Open Programming Courses for Everyone: Python',
+                price: '19.00',
+            },
+            {
+                img: './dist/img/course-04.jpg',
+                title: 'Academic Listening and Note-taking',
+                price: '26.00',
+            },
         ]
     },
     methods:{
