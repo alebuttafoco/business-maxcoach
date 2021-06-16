@@ -3,36 +3,6 @@
 /* color cube */
 /* median cut */
 /* material design */
-.btn-learn_more {
-  text-align: center;
-  display: inline-block;
-  color: white;
-  background-color: #2fad96;
-  font-size: 0.7rem;
-  padding: 12px 0;
-  width: 150px;
-  border-radius: 5px;
-  font-weight: 500;
-  cursor: pointer;
-  color: #2fad96;
-  background-color: white;
-  border: 1px solid #eceeef;
-  margin-right: 20px;
-}
-.btn-learn_more:hover {
-  text-align: center;
-  display: inline-block;
-  color: white;
-  background-color: #2fad96;
-  font-size: 0.7rem;
-  padding: 12px 0;
-  width: 150px;
-  border-radius: 5px;
-  font-weight: 500;
-  cursor: pointer;
-  background-color: #3F3A64;
-}
-
 /* reset */
 * {
   box-sizing: border-box;
@@ -103,6 +73,36 @@ a {
   color: white;
   background-color: #2fad96;
   cursor: pointer;
+}
+
+.btn-learn_more {
+  text-align: center;
+  display: inline-block;
+  color: white;
+  background-color: #2fad96;
+  font-size: 0.7rem;
+  padding: 12px 0;
+  width: 150px;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+  color: #2fad96;
+  background-color: white;
+  border: 1px solid #eceeef;
+  margin-right: 20px;
+}
+.btn-learn_more:hover {
+  text-align: center;
+  display: inline-block;
+  color: white;
+  background-color: #2fad96;
+  font-size: 0.7rem;
+  padding: 12px 0;
+  width: 150px;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #3F3A64;
 }
 
 #site_header #site_navbar {

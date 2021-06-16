@@ -36,13 +36,3 @@
     background-color: $secondary;
     cursor: pointer;
 }
-.btn-learn_more{
-    @include btn-getstarted;
-    color: $secondary;
-    background-color: white;
-    border: 1px solid $porcelain;
-    margin-right: 20px;
-    &:hover{
-        @include btn-getstarted-hover;
-    }
-}
