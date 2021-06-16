@@ -92,7 +92,8 @@ var app = new Vue({
     events: [{
       name: 'Storytelling Workshop',
       place: 'Texas, US',
-      date: null
+      day: dayjs('11-22-2020').format("DD"),
+      month: dayjs('11-22-2020').format("MMM")
     }]
   },
   methods: {
