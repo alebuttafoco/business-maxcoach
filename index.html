@@ -142,12 +142,11 @@
             
                     <!-- cards -->
                     <div class="cards">
-                        <div class="card" v-for="data in coursesData" >
+                        <div class="card" v-for="data in coursesData">
                             <div class="text">
-                                <h3>  </h3>
-                                <p>  </p>
+                                <h3> {{data.title}} </h3>
+                                <p> {{data.price}} </p>
                             </div>
-                            <span class="btn_discover">Discover now <i class="fas fa-long-arrow-alt-right"></i> </span>
                         </div>
                         <p></p>
                     </div>
