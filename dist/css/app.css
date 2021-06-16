@@ -299,14 +299,21 @@ a {
   color: #bcbcbc;
 }
 
+#site_main .courses .container p {
+  text-align: center;
+  margin-top: 50px;
+}
+#site_main .courses .container p a {
+  border-bottom: 1px solid #eceeef;
+}
 #site_main .courses .container .section_header h2 {
   font-size: 2.7rem;
 }
-#site_main .courses .cards {
+#site_main .courses .container .cards {
   display: flex;
   justify-content: space-between;
 }
-#site_main .courses .cards .card {
+#site_main .courses .container .cards .card {
   width: calc(100% / 4.4);
   height: 500px;
   background-size: cover;
@@ -314,20 +321,20 @@ a {
   border-radius: 5px;
   position: relative;
 }
-#site_main .courses .cards .card .text {
+#site_main .courses .container .cards .card .text {
   color: white;
   padding: 25px;
   position: absolute;
   bottom: 0;
 }
-#site_main .courses .cards .card .text span {
+#site_main .courses .container .cards .card .text span {
   color: #2fad96;
   font-weight: 700;
   font-size: 1.4rem;
 }
-#site_main .courses .cards .card .text span span:first-child {
+#site_main .courses .container .cards .card .text span span:first-child {
   font-size: 1.4rem;
 }
-#site_main .courses .cards .card .text span span:last-child {
+#site_main .courses .container .cards .card .text span span:last-child {
   font-size: 1.2rem;
 }
