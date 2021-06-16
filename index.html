@@ -142,10 +142,10 @@
             
                     <!-- cards -->
                     <div class="cards">
-                        <div class="card" v-for="data in coursesData">
+                        <div class="card" v-for="data in coursesData" :style="{ backgroundImage: 'url(' + data.img + ')' }" >
                             <div class="text">
+                                <span> <span v-if="!isNaN(data.price)">$</span>{{data.price}}<span v-if="!isNaN(data.price)">.00</span> </span>
                                 <h3> {{data.title}} </h3>
-                                <p> {{data.price}} </p>
                             </div>
                         </div>
                         <p></p>

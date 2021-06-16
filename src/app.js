@@ -73,7 +73,7 @@ const app = new Vue({
             {
                 img: './dist/img/course-01.jpg',
                 title: 'Learning to Write as a Professional Author',
-                price: '$40.00',
+                price: '40',
             },
             {
                 img: './dist/img/course-02.jpg',
@@ -83,12 +83,12 @@ const app = new Vue({
             {
                 img: './dist/img/course-03.jpg',
                 title: 'Open Programming Courses for Everyone: Python',
-                price: '$19.00',
+                price: '19',
             },
             {
                 img: './dist/img/course-04.jpg',
                 title: 'Academic Listening and Note-taking',
-                price: '$26.00',
+                price: '26',
             },
         ]
     },

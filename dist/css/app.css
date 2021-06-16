@@ -302,3 +302,32 @@ a {
 #site_main .courses .container .section_header h2 {
   font-size: 2.7rem;
 }
+#site_main .courses .cards {
+  display: flex;
+  justify-content: space-between;
+}
+#site_main .courses .cards .card {
+  width: calc(100% / 4.4);
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  position: relative;
+}
+#site_main .courses .cards .card .text {
+  color: white;
+  padding: 25px;
+  position: absolute;
+  bottom: 0;
+}
+#site_main .courses .cards .card .text span {
+  color: #2fad96;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+#site_main .courses .cards .card .text span span:first-child {
+  font-size: 1.4rem;
+}
+#site_main .courses .cards .card .text span span:last-child {
+  font-size: 1.2rem;
+}
