@@ -192,9 +192,8 @@
                     </div>
 
                     <!-- events -->
-                    <div>
-                        <h1> {{events[0].day}} </h1>
-                        <h1> {{events[0].month}} </h1>
+                    <div v-for="data in events">
+                        {{data.name}}
                     </div>
                 </div>
             </section>
