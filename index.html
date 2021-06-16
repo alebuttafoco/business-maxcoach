@@ -175,7 +175,7 @@
                     <div class="video_text">
                         <h2>To Thrive in Business <br> Today, You'll Need a <br> Good Plan</h2>
                         <div class="faq" v-for="(data, index) in FAQ" >
-                            <h3 @click="showFAQ(index)" > <i class="far fa-caret-square-down"></i> {{data.question}} </h3>
+                            <h3 :class=" {h3_active : data.active} " @click="showFAQ(index)" > <i v-if="data.active" class="far fa-caret-square-up"></i> <i v-else class="far fa-caret-square-down"></i> {{data.question}} </h3>
                             <p v-if="data.active"> {{data.answer}} </p>
                         </div>
                     </div>

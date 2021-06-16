@@ -31,6 +31,9 @@
                 }
                 .faq{
                     border-bottom: 1px solid rgba(211, 211, 211, 0.473);
+                    .h3_active{
+                        color: $secondary;
+                    }
                     h3{
                         cursor: pointer;
                         padding: 20px 0;
