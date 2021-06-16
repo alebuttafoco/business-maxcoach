@@ -27,6 +27,21 @@
                 color: white;
                 h2{
                     font-size: 2.7rem;
+                    margin-bottom: 25px;
+                }
+                .faq{
+                    border-bottom: 1px solid rgba(211, 211, 211, 0.473);
+                    h3{
+                        padding: 20px 0;
+                        i{
+                            padding-right: 15px;
+                        }
+                    }
+                    p{
+                        font-size: .9rem;
+                        line-height: 1.7rem;
+                        padding-bottom: 20px;
+                    }
                 }
             }
         }

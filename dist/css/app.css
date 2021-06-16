@@ -396,4 +396,19 @@ a {
 }
 #site_main .video_section .container .video_text h2 {
   font-size: 2.7rem;
+  margin-bottom: 25px;
+}
+#site_main .video_section .container .video_text .faq {
+  border-bottom: 1px solid rgba(211, 211, 211, 0.473);
+}
+#site_main .video_section .container .video_text .faq h3 {
+  padding: 20px 0;
+}
+#site_main .video_section .container .video_text .faq h3 i {
+  padding-right: 15px;
+}
+#site_main .video_section .container .video_text .faq p {
+  font-size: 0.9rem;
+  line-height: 1.7rem;
+  padding-bottom: 20px;
 }
