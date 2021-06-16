@@ -416,3 +416,7 @@ a {
   line-height: 1.7rem;
   padding-bottom: 20px;
 }
+
+#site_main .events .section_header h2 {
+  font-size: 2.7rem;
+}
