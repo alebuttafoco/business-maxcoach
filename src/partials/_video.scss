@@ -1,9 +1,27 @@
 #site_main{
     .video_section{
-        height: 700px;
         background-color: $video_section_color;
-        background-image: url(../../dist/img/home-business-hero-global-image.png);
+        background-image: url(../../dist/img/home-business-hero-global-image.png), url(../../dist/img/maxcoach-shape-07.png);
         background-repeat: no-repeat;
-        background-position:right;
+        background-size: 60%, 8%;
+        background-position: 120% 90%, 5% 95%;
+        .container{
+            .cover_video{
+                display: inline-block;
+                width: 650px !important;
+                height: 450px;
+                width: 50%;
+                margin: 80px;
+                background-image: url(../../dist/img/home-business-video-poster-670x450.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                border-radius: 5px;
+                @include flex-v-center;
+                justify-content: center;
+                img{
+                    cursor: pointer;
+                }
+            }
+        }
     }
 }
