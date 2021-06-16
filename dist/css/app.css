@@ -490,3 +490,12 @@ a {
   font-size: 1rem;
   font-weight: 600;
 }
+#site_main .events .container_sm > div:last-child {
+  text-align: center;
+  padding: 30px 0;
+}
+#site_main .events .container_sm > div:last-child a {
+  color: #2fad96;
+  border-bottom: 1px solid #eceeef;
+  font-weight: 600;
+}

@@ -104,7 +104,7 @@ const app = new Vue({
                 active: false,
             },
             {
-                question: 'Whay is one-on-one coaching?',
+                question: 'What is one-on-one coaching?',
                 answer: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa repellendus placeat blanditiis sequi reiciendis maiores odio dolorem! Aut unde magnam vitae atque, iusto ipsa illum nemo quod accusantium rem dicta reiciendis natus necessitatibus est optio quam culpa officiis deserunt delectus. Id ullam in ratione accusamus blanditiis omnis veritatis velit quas.',
                 active: false,
             },

@@ -48,6 +48,15 @@
                     }
                 }
             }
+            &>div:last-child{
+                text-align: center;
+                padding: 30px 0;
+                a{
+                    color: $secondary;
+                    border-bottom:1px solid $porcelain;
+                    font-weight: 600;
+                }
+            }
         }
     }
 }
