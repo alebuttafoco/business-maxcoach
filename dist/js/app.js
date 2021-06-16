@@ -90,7 +90,17 @@ var app = new Vue({
       active: false
     }]
   },
-  methods: {},
+  methods: {
+    showFAQ: function showFAQ(index) {
+      this.FAQ.forEach(function (data, i) {
+        if (index == i && !data.active) {
+          data.active = true;
+        } else {
+          data.active = false;
+        }
+      });
+    }
+  },
   mounted: function mounted() {}
 });
 

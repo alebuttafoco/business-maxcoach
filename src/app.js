@@ -110,6 +110,16 @@ const app = new Vue({
             },
         ]
     },
-    methods:{},
+    methods:{
+        showFAQ(index){
+            this.FAQ.forEach((data, i) => {
+                if(index == i && !data.active){
+                    data.active = true;
+                } else {
+                    data.active = false;
+                }
+            });
+        }
+    },
     mounted(){}
 })

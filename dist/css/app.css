@@ -402,6 +402,7 @@ a {
   border-bottom: 1px solid rgba(211, 211, 211, 0.473);
 }
 #site_main .video_section .container .video_text .faq h3 {
+  cursor: pointer;
   padding: 20px 0;
 }
 #site_main .video_section .container .video_text .faq h3 i {
