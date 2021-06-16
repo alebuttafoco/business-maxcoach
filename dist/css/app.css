@@ -344,3 +344,7 @@ a {
 #site_main .courses .container .cards .card .text span span:last-child {
   font-size: 1.2rem;
 }
+
+#site_main .video_section {
+  background-color: #323043;
+}
