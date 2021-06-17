@@ -172,7 +172,7 @@ var app = new Vue({
     reviews: [{
       firstName: 'Mina',
       lastName: 'Hollace',
-      profession: 'Freelencer',
+      profession: 'Freelancer',
       title: 'High level of efficiency and scientific teaching methods',
       text: 'I\'m free to learn at my own pace, follow my own schedule and choose the subject I want to learn from the syllabus. Great study portal for people like me. ',
       image: './dist/img/testimonial-avata-02.jpg'
@@ -193,7 +193,7 @@ var app = new Vue({
     }, {
       firstName: 'James',
       lastName: 'Bullet',
-      profession: 'Freelencer',
+      profession: 'Freelancer',
       title: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, impedit.',
       text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et voluptate culpa, qui numquam unde a, ipsa doloribus labore accusamus saepe eum quas obcaecati sit ex.',
       image: './dist/img/testimonial-avata-01.jpg'
