@@ -521,3 +521,48 @@ a {
   border-bottom: 1px solid #eceeef;
   font-weight: 600;
 }
+
+#site_main .reviews {
+  background-color: #f8f8f8;
+}
+#site_main .reviews .cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+#site_main .reviews .cards .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  width: 550px;
+  height: 350px;
+  padding: 40px;
+  border-radius: 5px;
+}
+#site_main .reviews .cards .card .text h4 {
+  color: #48436B;
+}
+#site_main .reviews .cards .card .text p {
+  padding: 30px 0;
+  font-size: 0.9rem;
+}
+#site_main .reviews .cards .card .user {
+  display: flex;
+  align-items: center;
+}
+#site_main .reviews .cards .card .user img {
+  width: 60px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+#site_main .reviews .cards .card .user .user_info > div {
+  padding: 5px;
+}
+#site_main .reviews .cards .card .user .user_info .user_name {
+  color: #48436B;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+#site_main .reviews .cards .card .user .user_info .profession {
+  font-size: 0.9rem;
+}
