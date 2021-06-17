@@ -174,21 +174,22 @@ var app = new Vue({
       lastName: 'Hollace',
       profession: 'Freelencer',
       title: 'High level of efficiency and scientific teaching methods',
-      image: './dist/img/testimonial-avata-01.jpg'
+      text: 'I\'m free to learn at my own pace, follow my own schedule and choose the subject I want to learn from the syllabus. Great study portal for people like me. ',
+      image: './dist/img/testimonial-avata-02.jpg'
     }, {
       firstName: 'Madley',
       lastName: 'Pondor',
       profession: 'IT Specialist',
       title: 'Professional team of specialists and passionate mentors ad reach',
       text: 'I need to get a certification for English proficiency and MaxCoach is my best choice. Their tutors are smart and professional when dealing with students.',
-      image: './dist/img/testimonial-avata-01.jpg'
+      image: './dist/img/testimonial-avata-04.jpg'
     }, {
       firstName: 'Florence',
       lastName: 'Themes',
       profession: 'Multimedia Admin',
       title: 'It\'s a choice of quality for people with special needs',
       text: 'I\'m very strict person so I require everything to be organized and neat. Then, I\'ll be able to make things rigth and shine. MaxCoach guys just got me.',
-      image: './dist/img/testimonial-avata-01.jpg'
+      image: './dist/img/testimonial-avata-03.jpg'
     }, {
       name: 'James Bullet',
       profession: 'Freelencer',

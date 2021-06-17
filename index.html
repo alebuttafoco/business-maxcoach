@@ -233,18 +233,18 @@
 
                 <!-- feedback -->
                 <div class="cards">
-                    <div class="card">
+                    <div class="card" v-for="data in reviews">
                         <!-- text card -->
                         <div class="text">
-                            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, impedit.</h4>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et voluptate culpa, qui numquam unde a, ipsa doloribus labore accusamus saepe eum quas obcaecati sit ex.</p>
+                            <h4> {{data.title}} </h4>
+                            <p> {{data.text}} </p>
                         </div>
                         <!-- user -->
                         <div class="user">
-                            <img src="./dist/img/testimonial-avata-01.jpg" alt="">
+                            <img :src=" data.image " alt="">
                             <div class="user_info">
-                                <div class="user_name">Nome Cognome</div>
-                                <div class="profession">/Lavoro</div>
+                                <div class="user_name"> {{data.firstName}} {{data.lastName}} </div>
+                                <div class="profession"> /{{data.profession}} </div>
                             </div>
                         </div>
                     </div>
