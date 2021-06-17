@@ -1,8 +1,17 @@
 #site_main{
     .newsletter{
+        padding: 70px;
+        background-image: 
+        url(../../dist/img/maxcoach-shape-02.png), 
+        url(../../dist/img/maxcoach-shape-09.png),
+        url(../../dist/img/circle.png);
+        background-repeat: no-repeat;
+        background-position: 80% 50%, 0 0, 0 0;
         .section_header{
+            padding-bottom: 10px;
             h2{
                 font-weight: 600;
+                margin-top: 0;
                 margin-bottom: 20px;
                 span{
                     font-weight:400;
