@@ -1,0 +1,12 @@
+#site_main{
+    .section_header{
+        h2{
+            font-weight: 600;
+            margin-bottom: 20px;
+            span{
+                font-weight:400;
+                color: $secondary;
+            }
+        }
+    }
+}

@@ -576,3 +576,12 @@ a {
   transform: scale(0.9);
   cursor: pointer;
 }
+
+#site_main .section_header h2 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+#site_main .section_header h2 span {
+  font-weight: 400;
+  color: #2fad96;
+}
