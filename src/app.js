@@ -183,7 +183,8 @@ const app = new Vue({
                 image: './dist/img/testimonial-avata-03.jpg',
             },
             {
-                name: 'James Bullet',
+                firstName: 'James',
+                lastName: 'Bullet',
                 profession: 'Freelencer',
                 title: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, impedit.',
                 text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et voluptate culpa, qui numquam unde a, ipsa doloribus labore accusamus saepe eum quas obcaecati sit ex.',
