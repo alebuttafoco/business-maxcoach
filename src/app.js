@@ -191,7 +191,7 @@ const app = new Vue({
             },
         ],
 
-        activeReview: 0,
+        activeReview: 2,
     },
     methods:{
         showFAQ(index){
@@ -206,6 +206,10 @@ const app = new Vue({
 
         showLanguage(index){
            this.activeLanguage = index;
+        },
+
+        showReview(index){
+
         }
     },
     mounted(){}

@@ -48,6 +48,10 @@
             .empty_place{
                 opacity: 0;
             }
+            .prev_review, .next_review{
+                opacity: .5;
+                transform: scale(.9);
+            }
         }
     }
 }
