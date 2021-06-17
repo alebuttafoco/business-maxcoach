@@ -320,7 +320,9 @@
                 <div class="top_footer">
                     <!-- left info -->
                     <div class="address">
+                        <!-- title -->
                         <h4 class="color_title">Address</h4>
+                        <!-- content -->
                         <span>382 NE 191st St # 87394 Miami, FL 33179-3899</span>
                         <span>+1(305) 547-9909 (9am-5pm EST, Monday-Friday)</span>
                         <span>support@maxcoach.com</span>
@@ -336,12 +338,21 @@
                     <!-- right info -->
                     <div class="right_info">
                         <div class="explore">
+                            <!-- title -->
                             <h4 class="color_title">Explore</h4>
-
+                            <!-- link -->
+                            <div class="links">
+                                <a href="#" v-for="data in exploreLinks"> {{data}} </a>
+                            </div>
                         </div>
 
                         <div class="information">
+                            <!-- title -->
                             <h4 class="color_title">Information</h4>
+                            <!-- links -->
+                            <div class="links">
+                                <a href="#" v-for="data in informationLinks"> {{data}} </a>
+                            </div>
                         </div>
                     </div>
                 </div>

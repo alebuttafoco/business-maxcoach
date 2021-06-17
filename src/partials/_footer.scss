@@ -4,13 +4,16 @@
     color: $footer_links_color;
     .color_title{
         color:white;
+        margin-bottom: 10px;
     }
     .container_sm{
         .top_footer{
             margin-bottom: 100px;
+            display: flex;
             .address{
                 display: flex;
                 flex-direction: column;
+                width: 50%;
                 span{
                     @include footer_content;
                 }
@@ -23,6 +26,38 @@
                     }
                 }
             }
+            .right_info{
+                display: flex;
+                width: 50%;
+                .explore, .information{
+                    width: 50%;
+                    padding-left: 10px;
+                    .links{
+                        a{
+                            @include footer_content;
+                        }
+                    }
+                }
+                .explore{
+                    .links{
+                        display: flex;
+                        flex-wrap: wrap;
+                        a{
+                            width: 50%;
+                        }
+                    }
+                }
+                .information{
+                    .links{
+                        display: flex;
+                        flex-direction: column;
+                    }
+                }
+            }
+        }
+        .copy{
+            text-align: center;
+            font-size: .8rem;
         }
     }
 }
