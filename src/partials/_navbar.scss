@@ -3,6 +3,7 @@
         @include flex-v-center;
         justify-content: space-between;
         #main_logo{
+            flex-grow: .17;
             padding-left: 150px;
             img{
                 width: 150px;
@@ -16,6 +17,9 @@
             }
         }
         .nav_options{
+            display: flex;
+            justify-content: flex-end;
+            min-width: 400px;
             @include flex-v-center;
             .languages{
                 @include flex-v-center;

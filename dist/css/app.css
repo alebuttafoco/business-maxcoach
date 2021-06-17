@@ -179,6 +179,7 @@ a {
   justify-content: space-between;
 }
 #site_header #site_navbar #main_logo {
+  flex-grow: 0.17;
   padding-left: 150px;
 }
 #site_header #site_navbar #main_logo img {
@@ -190,6 +191,9 @@ a {
   color: #3F3A64;
 }
 #site_header #site_navbar .nav_options {
+  display: flex;
+  justify-content: flex-end;
+  min-width: 400px;
   display: flex;
   align-items: center;
 }
