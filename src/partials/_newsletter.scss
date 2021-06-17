@@ -9,4 +9,23 @@
             }
         }
     }
+    .email_form{
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        input{
+            background-color: $bg_color_input;
+            padding: 20px;
+            border-style: none;
+            width: 400px;
+            height: 45px;
+            border-radius: 5px;
+        }
+        button{
+            @include btn-getstarted;
+            border-style: none;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+    }
 }

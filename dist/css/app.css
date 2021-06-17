@@ -11,7 +11,7 @@
 }
 
 /* common rules */
-body, input {
+body, input, button {
   font-family: "Poppins", sans-serif;
 }
 
@@ -584,4 +584,32 @@ a {
 #site_main .section_header h2 span {
   font-weight: 400;
   color: #2fad96;
+}
+#site_main .email_form {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+#site_main .email_form input {
+  background-color: #F5F5F5;
+  padding: 20px;
+  border-style: none;
+  width: 400px;
+  height: 45px;
+  border-radius: 5px;
+}
+#site_main .email_form button {
+  text-align: center;
+  display: inline-block;
+  color: white;
+  background-color: #2fad96;
+  font-size: 0.7rem;
+  padding: 12px 0;
+  width: 150px;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
