@@ -634,3 +634,28 @@ a {
   padding: 50px 0;
   color: #8B8B90;
 }
+#site_footer .color_title {
+  color: white;
+}
+#site_footer .container_sm .top_footer {
+  margin-bottom: 100px;
+}
+#site_footer .container_sm .top_footer .address {
+  display: flex;
+  flex-direction: column;
+}
+#site_footer .container_sm .top_footer .address span {
+  font-size: 0.8rem;
+  color: #8B8B90;
+  padding: 10px 0;
+}
+#site_footer .container_sm .top_footer .address .social {
+  padding-top: 15px;
+}
+#site_footer .container_sm .top_footer .address .social a {
+  font-size: 0.8rem;
+  color: #8B8B90;
+  padding: 10px 0;
+  font-size: 1.5rem;
+  padding-right: 20px;
+}

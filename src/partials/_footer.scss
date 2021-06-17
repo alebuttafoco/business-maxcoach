@@ -2,4 +2,27 @@
     background-color: $footer_color;
     padding: 50px 0;
     color: $footer_links_color;
+    .color_title{
+        color:white;
+    }
+    .container_sm{
+        .top_footer{
+            margin-bottom: 100px;
+            .address{
+                display: flex;
+                flex-direction: column;
+                span{
+                    @include footer_content;
+                }
+                .social{
+                    padding-top: 15px;
+                    a{
+                        @include footer_content;
+                        font-size: 1.5rem;
+                        padding-right: 20px;
+                    }
+                }
+            }
+        }
+    }
 }

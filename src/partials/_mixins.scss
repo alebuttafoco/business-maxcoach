@@ -36,3 +36,9 @@
     background-color: $secondary;
     cursor: pointer;
 }
+
+@mixin footer_content {
+    font-size: .8rem;
+    color: $footer_links_color;
+    padding: 10px 0;
+}

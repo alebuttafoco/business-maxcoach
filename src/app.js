@@ -191,8 +191,9 @@ const app = new Vue({
                 image: './dist/img/testimonial-avata-01.jpg',
             },
         ],
-
         activeReview: 0,
+
+        
     },
     methods:{
         showFAQ(index){
