@@ -572,4 +572,5 @@ a {
 #site_main .reviews .cards .prev_review, #site_main .reviews .cards .next_review {
   opacity: 0.5;
   transform: scale(0.9);
+  cursor: pointer;
 }

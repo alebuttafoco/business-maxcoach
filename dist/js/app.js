@@ -212,7 +212,9 @@ var app = new Vue({
     showLanguage: function showLanguage(index) {
       this.activeLanguage = index;
     },
-    showReview: function showReview(index) {}
+    showReview: function showReview(index) {
+      this.activeReview = index;
+    }
   },
   mounted: function mounted() {}
 });

@@ -209,7 +209,7 @@ const app = new Vue({
         },
 
         showReview(index){
-
+            this.activeReview = index;
         }
     },
     mounted(){}
