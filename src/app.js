@@ -56,7 +56,7 @@ const app = new Vue({
             {
                 img:'./dist/img/home-business-service-slide-01-480x298.jpg',
                 title:'Consultative Training',
-                text: 'With a coach addessing multiple issues that are off balance, affecting your business in various unconsidered ways.',
+                text: 'With a coach addressing multiple issues that are off balance, affecting your business in various unconsidered ways.',
             },
             {
                 img: './dist/img/home-business-service-slide-02-480x298.jpg',
