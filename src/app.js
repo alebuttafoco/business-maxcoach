@@ -191,7 +191,7 @@ const app = new Vue({
             },
         ],
 
-        activeReview: 1,
+        activeReview: 0,
     },
     methods:{
         showFAQ(index){
