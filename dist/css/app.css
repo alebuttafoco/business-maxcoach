@@ -1,8 +1,5 @@
 @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap);
 /* COLORS */
-/* color cube */
-/* median cut */
-/* material design */
 /* reset */
 * {
   box-sizing: border-box;
@@ -626,4 +623,8 @@ a {
   border-style: none;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
+}
+
+#site_footer {
+  background-color: #171621;
 }
