@@ -217,6 +217,8 @@ a {
   position: relative;
 }
 #site_header #site_navbar .nav_options .dropdown .dropdown_content {
+  opacity: 0;
+  top: -120px;
   z-index: 1;
   padding-top: 10px;
   font-size: 0.8rem;
@@ -224,16 +226,16 @@ a {
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 25px;
   right: 0;
-  display: none;
+  transition: 0.3s;
 }
 #site_header #site_navbar .nav_options .dropdown .dropdown_content .lang {
   display: flex;
   padding: 10px;
 }
 #site_header #site_navbar .nav_options .dropdown:hover .dropdown_content {
-  display: block;
+  opacity: 1;
+  top: 25px;
 }
 #site_header #site_navbar .nav_options .fa-user-circle {
   margin: 0 15px;
