@@ -1,31 +1,33 @@
 #site_main{
-    .section_header{
-        h2{
-            font-weight: 600;
-            margin-bottom: 20px;
-            span{
-                font-weight:400;
-                color: $secondary;
+    .newsletter{
+        .section_header{
+            h2{
+                font-weight: 600;
+                margin-bottom: 20px;
+                span{
+                    font-weight:400;
+                    color: $secondary;
+                }
             }
         }
-    }
-    .email_form{
-        margin-top: 40px;
-        display: flex;
-        justify-content: center;
-        input{
-            background-color: $bg_color_input;
-            padding: 20px;
-            border-style: none;
-            width: 400px;
-            height: 45px;
-            border-radius: 5px;
-        }
-        button{
-            @include btn-getstarted;
-            border-style: none;
-            border-top-left-radius: 0;
-            border-bottom-left-radius: 0;
+        .email_form{
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            input{
+                background-color: $bg_color_input;
+                padding: 20px;
+                border-style: none;
+                width: 400px;
+                height: 45px;
+                border-radius: 5px;
+            }
+            button{
+                @include btn-getstarted;
+                border-style: none;
+                border-top-left-radius: 0;
+                border-bottom-left-radius: 0;
+            }
         }
     }
 }

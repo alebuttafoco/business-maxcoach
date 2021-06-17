@@ -577,20 +577,20 @@ a {
   cursor: pointer;
 }
 
-#site_main .section_header h2 {
+#site_main .newsletter .section_header h2 {
   font-weight: 600;
   margin-bottom: 20px;
 }
-#site_main .section_header h2 span {
+#site_main .newsletter .section_header h2 span {
   font-weight: 400;
   color: #2fad96;
 }
-#site_main .email_form {
+#site_main .newsletter .email_form {
   margin-top: 40px;
   display: flex;
   justify-content: center;
 }
-#site_main .email_form input {
+#site_main .newsletter .email_form input {
   background-color: #F5F5F5;
   padding: 20px;
   border-style: none;
@@ -598,7 +598,7 @@ a {
   height: 45px;
   border-radius: 5px;
 }
-#site_main .email_form button {
+#site_main .newsletter .email_form button {
   text-align: center;
   display: inline-block;
   color: white;
