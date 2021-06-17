@@ -168,6 +168,33 @@ var app = new Vue({
         return dayjs(this.date).format("MMM");
       }
 
+    }],
+    reviews: [{
+      firstName: 'Mina',
+      lastName: 'Hollace',
+      profession: 'Freelencer',
+      title: 'High level of efficiency and scientific teaching methods',
+      image: './dist/img/testimonial-avata-01.jpg'
+    }, {
+      firstName: 'Madley',
+      lastName: 'Pondor',
+      profession: 'IT Specialist',
+      title: 'Professional team of specialists and passionate mentors ad reach',
+      text: 'I need to get a certification for English proficiency and MaxCoach is my best choice. Their tutors are smart and professional when dealing with students.',
+      image: './dist/img/testimonial-avata-01.jpg'
+    }, {
+      firstName: 'Florence',
+      lastName: 'Themes',
+      profession: 'Multimedia Admin',
+      title: 'It\'s a choice of quality for people with special needs',
+      text: 'I\'m very strict person so I require everything to be organized and neat. Then, I\'ll be able to make things rigth and shine. MaxCoach guys just got me.',
+      image: './dist/img/testimonial-avata-01.jpg'
+    }, {
+      name: 'James Bullet',
+      profession: 'Freelencer',
+      title: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, impedit.',
+      text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et voluptate culpa, qui numquam unde a, ipsa doloribus labore accusamus saepe eum quas obcaecati sit ex.',
+      image: './dist/img/testimonial-avata-01.jpg'
     }]
   },
   methods: {
