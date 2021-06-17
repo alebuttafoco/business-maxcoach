@@ -198,7 +198,9 @@ var app = new Vue({
       text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et voluptate culpa, qui numquam unde a, ipsa doloribus labore accusamus saepe eum quas obcaecati sit ex.',
       image: './dist/img/testimonial-avata-01.jpg'
     }],
-    activeReview: 0
+    activeReview: 0,
+    exploreLinks: ['Start here', 'Success story', 'Blog', 'Courses', 'About us', 'Contact us'],
+    informationLinks: ['Membership', 'Purchase guide', 'Privacy policy', 'Terms of service']
   },
   methods: {
     showFAQ: function showFAQ(index) {

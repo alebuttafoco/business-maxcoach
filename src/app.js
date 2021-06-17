@@ -193,6 +193,8 @@ const app = new Vue({
         ],
         activeReview: 0,
 
+        exploreLinks:['Start here', 'Success story', 'Blog', 'Courses', 'About us', 'Contact us'],
+        informationLinks: ['Membership', 'Purchase guide', 'Privacy policy', 'Terms of service'],
         
     },
     methods:{
