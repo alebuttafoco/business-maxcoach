@@ -4,6 +4,8 @@
 /* feedback section */
 /* input */
 /* footer */
+/* buttons */
+/* footer text */
 /* reset */
 * {
   box-sizing: border-box;
@@ -37,6 +39,7 @@ a {
   margin: auto;
 }
 
+/* buttons */
 .btn-get_started {
   text-align: center;
   display: inline-block;
@@ -138,6 +141,7 @@ a {
   width: 100px;
 }
 
+/* /buttons */
 .section_header {
   text-align: center;
 }

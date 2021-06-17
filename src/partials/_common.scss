@@ -31,6 +31,7 @@ a{
     margin: auto;
 }
 
+/* buttons */
 .btn-get_started{
     @include btn-getstarted;
     &:hover{
@@ -68,6 +69,7 @@ a{
     padding: 7px 0px;
     width: 100px;
 }
+/* /buttons */
 .section_header{
     text-align: center;
     h3{
