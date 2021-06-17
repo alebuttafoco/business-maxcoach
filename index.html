@@ -119,7 +119,7 @@
                 <div class="container_sm">
                     <div class="section_header">
                         <h3>Let's Dream Big Together</h3>
-                        <h2>Explore How can I help you</h2>
+                        <h2 class="lg_title">Explore How can I help you</h2>
                     </div>
 
                     <!-- cards -->
@@ -145,7 +145,7 @@
                 <div class="container">
                     <div class="section_header">
                         <h3>Let's Dream Big Together</h3>
-                        <h2>Explore How can I help you</h2>
+                        <h2 class="lg_title">Explore How can I help you</h2>
                     </div>
             
                     <!-- cards -->
@@ -181,7 +181,7 @@
 
                     <!-- text -->
                     <div class="video_text">
-                        <h2>To Thrive in Business <br> Today, You'll Need a <br> Good Plan</h2>
+                        <h2 class="lg_title">To Thrive in Business <br> Today, You'll Need a <br> Good Plan</h2>
                         <div class="faq" v-for="(data, index) in FAQ" >
                             <h3 :class=" {h3_active : data.active} " @click="showFAQ(index)" > <i v-if="data.active" class="far fa-caret-square-up"></i> <i v-else class="far fa-caret-square-down"></i> {{data.question}} </h3>
                             <p v-if="data.active"> {{data.answer}} </p>
@@ -197,7 +197,7 @@
                 <div class="container_sm">
                     <div class="section_header">
                         <h3>Wanna transform you life?</h3>
-                        <h2>Upcoming Events</h2>
+                        <h2 class="lg_title">Upcoming Events</h2>
                     </div>
 
                     <!-- events -->
@@ -225,7 +225,11 @@
 
             <!-- reviews -->
             <section class="reviews">
-                
+                <!-- section header -->
+                <div class="section_header">
+                    <h3>People are praising Maxcoach</h3>
+                    <h2 class="lg_title">What make they love us?</h2>
+                </div>
             </section>
 
         </div>

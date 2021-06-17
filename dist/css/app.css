@@ -151,6 +151,10 @@ a {
   margin-bottom: 80px;
 }
 
+.lg_title {
+  font-size: 2.7rem !important;
+}
+
 #site_header #site_navbar {
   display: flex;
   align-items: center;
@@ -306,9 +310,6 @@ a {
 #site_main .explore .container_sm {
   text-align: center;
 }
-#site_main .explore .container_sm .section_header h2 {
-  font-size: 2.7rem;
-}
 #site_main .explore .container_sm .cards {
   display: flex;
   justify-content: space-between;
@@ -359,9 +360,6 @@ a {
 }
 #site_main .courses .container > p a {
   border-bottom: 1px solid #eceeef;
-}
-#site_main .courses .container .section_header h2 {
-  font-size: 2.7rem;
 }
 #site_main .courses .container .cards {
   display: flex;
@@ -447,7 +445,6 @@ a {
   color: white;
 }
 #site_main .video_section .container .video_text h2 {
-  font-size: 2.7rem;
   margin-bottom: 25px;
 }
 #site_main .video_section .container .video_text .faq {
@@ -469,9 +466,6 @@ a {
   padding-bottom: 20px;
 }
 
-#site_main .events .container_sm .section_header h2 {
-  font-size: 2.7rem;
-}
 #site_main .events .container_sm .cards {
   display: flex;
   flex-wrap: wrap;
