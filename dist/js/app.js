@@ -216,7 +216,17 @@ var app = new Vue({
       this.activeReview = index;
     }
   },
-  mounted: function mounted() {}
+  mounted: function mounted() {
+    var _this = this;
+
+    setInterval(function () {
+      if (_this.activeReview == _this.reviews.length - 1) {
+        _this.activeReview = 0;
+      } else {
+        _this.activeReview++;
+      }
+    }, 3000);
+  }
 });
 
 /***/ }),

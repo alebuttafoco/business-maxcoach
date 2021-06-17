@@ -212,5 +212,13 @@ const app = new Vue({
             this.activeReview = index;
         }
     },
-    mounted(){}
+    mounted(){
+        setInterval(() => {
+            if (this.activeReview == this.reviews.length - 1) { 
+                this.activeReview = 0
+            } else{
+                this.activeReview++;
+            }
+        }, 3000);
+    }
 })
