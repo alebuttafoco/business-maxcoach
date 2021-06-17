@@ -18,7 +18,6 @@
         .nav_options{
             @include flex-v-center;
             .languages{
-                position: relative;
                 @include flex-v-center;
                 img{
                     margin-right: 10px;
@@ -27,14 +26,19 @@
                     text-transform: uppercase;
                     font-weight: bold;
                 }
-                .dropdown{
+            }
+            .dropdown{
+                position: relative;
+                .dropdown_content{
                     z-index: 1;
+                    padding-top: 10px;
+                    font-size: .8rem;
                     background-color: white;
                     display: flex;
                     flex-direction: column;
                     position: absolute;
-                    top: 40px;
-                    right: -10px;
+                    top: 25px;
+                    right: 0;
                     .lang{
                         display: flex;
                         padding: 10px;
@@ -42,7 +46,7 @@
                     display: none;
                 }
                 &:hover{
-                    .dropdown{
+                    .dropdown_content{
                         display: block;
                     }
                 }

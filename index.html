@@ -34,12 +34,12 @@
                 <!-- right options -->
                 <div class="nav_options">
                     <!-- link - language -->
-                    <div class="languages">
+                    <div class="languages dropdown">
                         <img :src=" './dist/img/' + languages[0].flag + '.png' ">
                         <a href="#"> {{languages[0].language}} <i class="fas fa-chevron-down"></i> </a>
                         
                         <!-- dropdown -->
-                        <div class="dropdown">
+                        <div class="dropdown_content">
                             <div class="lang">
                                   <img :src=" './dist/img/' + languages[1].flag + '.png' ">
                                   <a href="#"> {{languages[1].language}} </a>
