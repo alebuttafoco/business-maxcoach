@@ -28,8 +28,8 @@
                     <img src="./dist/img/dark-logo.png" alt="">
                 </div>
 
+                 <!-- links -->
                 <div class="links">
-                    <!-- generati da Vue -->
                     <a href="#" v-for="link in navbarLinks"> {{link}} <i class="fas fa-chevron-down"></i> </a>
                 </div>
 
@@ -37,13 +37,17 @@
                 <div class="nav_options">
                     <!-- link - language -->
                     <div class="languages dropdown">
+                        <!-- flag -->
                         <img :src=" './dist/img/' + languages[activeLanguage].flag + '.png' ">
+                        <!-- language -->
                         <a href="#" > {{languages[activeLanguage].language}} <i class="fas fa-chevron-down"></i> </a>
                         
                         <!-- dropdown_content -->
                         <div class="dropdown_content">
                             <div class="lang" v-if="index != activeLanguage" @click="showLanguage(index)" v-for="(lang, index) in languages">
+                                <!-- flag -->
                                 <img :src=" './dist/img/' + lang.flag + '.png' ">
+                                <!-- language -->
                                 <a href="#"> {{lang.language}} </a>
                             </div>
                         </div>
@@ -93,13 +97,16 @@
             <!-- approach -->
             <section>
                 <div class="container_sm">
+                    <!-- header -->
                     <div class="section_header">
                         <h3>Let's Dream Big Together</h3>
                         <h2>We are pioneers of the digital approach, using leading-edge <br> 
                             technology to simplify procedures and apply executive <br> 
                             coaching in the new age of digitalization.</h2>
                     </div>
+                    <!-- all content -->
                     <div class="features">
+                        <!-- singe content -->
                         <div class="feature" v-for="data in approachData">
                             <img :src=" './dist/img/' + data.img + '.png' " alt="">
                             <div class="text">
@@ -107,18 +114,23 @@
                                 <p> {{data.text}} </p>
                             </div>
                         </div>
+
                     </div>
                     <!-- bottons -->
                     <div class="bottons">
+                        <!-- learn more -->
                         <span class="btn-learn_more">Learn more</span>
+                        <!-- get started -->
                         <span class="btn-get_started">Get started today</span>
                     </div>
+
                 </div>
             </section>
 
             <!-- explore section-->
             <section class="explore">
                 <div class="container_sm">
+                    <!-- header -->
                     <div class="section_header">
                         <h3>Let's Dream Big Together</h3>
                         <h2 class="lg_title">Explore How can I help you</h2>
@@ -126,50 +138,70 @@
 
                     <!-- cards -->
                     <div class="cards">
+                        <!-- card -->
                         <div class="card" v-for="data in exploreData">
+                            <!-- image -->
                             <img :src="data.img" alt="">
+                            <!-- text -->
                             <div class="text">
                                 <h3> {{data.title}} </h3>
                                 <p> {{data.text}} </p>
                             </div>
+                            <!-- button discover -->
                             <span class="btn_discover">Discover now <i class="fas fa-long-arrow-alt-right"></i> </span>
+
                         </div>
+
                     </div>
 
+                    <!-- cirlce indicators -->
                     <div class="circles">
                         <i :class="{circle_active : i == 0, circle_off : i != 0}" class="fas fa-circle"  v-for="(el, i) in exploreData"></i>
                     </div>
+
                 </div>
             </section>
 
             <!-- courses-->
             <section class="courses">
                 <div class="container">
+                    <!-- header -->
                     <div class="section_header">
                         <h3>Let's Dream Big Together</h3>
                         <h2 class="lg_title">Explore How can I help you</h2>
                     </div>
             
-                    <!-- cards -->
+                    <!-- all cards -->
                     <div class="cards">
+                        <!-- card -->
                         <div class="card" v-for="data in coursesData" :style="{ backgroundImage: 'url(' + data.img + ')' }" >
+                            <!-- overlay -->
                             <div class="overlay">
                                 <div class="text">
+                                    <!-- price -->
                                     <span> <span v-if="!isNaN(data.price)">$</span>{{data.price}}<span v-if="!isNaN(data.price)">.00</span> </span>
+                                    <!-- title -->
                                     <h3> {{data.title}} </h3>
+                                    <!-- text on hover -->
                                     <div class="text_hover">
                                         <div class="info">
                                             <span> <i class="far fa-file-alt"></i> 20 Lessons</span>
                                             <span> <i class="far fa-user"></i> 50 Students</span>
                                         </div>
+                                        <!-- description -->
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam culpa voluptatem inventore, iste quaerat molestiae.</p>
                                     </div>
                                 </div>
+
                             </div>
+
                         </div>
                     </div>
+
+                    <!-- bottom text -->
                     <p>Take the control of their life back and start doing things to make their <br> 
                     dream come true. <strong><a href="#">View all courses <i class="fas fa-long-arrow-alt-right"></i> </a></strong> </p>
+
                 </div>
             </section>
 
@@ -178,17 +210,23 @@
                 <div class="container">
                     <!-- video -->
                     <div class="cover_video">
+                        <!-- player -->
                         <img src="./dist/img/icon-youtube-play.png" alt="">
                     </div>
 
                     <!-- text -->
                     <div class="video_text">
+                        <!-- title -->
                         <h2 class="lg_title">To Thrive in Business <br> Today, You'll Need a <br> Good Plan</h2>
+
+                        <!-- FAQ -->
                         <div class="faq" v-for="(data, index) in FAQ" >
                             <h3 :class=" {h3_active : data.active} " @click="showFAQ(index)" > <i v-if="data.active" class="far fa-caret-square-up"></i> <i v-else class="far fa-caret-square-down"></i> {{data.question}} </h3>
                             <p v-if="data.active"> {{data.answer}} </p>
                         </div>
+
                     </div>
+
                 </div>
 
             </section>
@@ -197,6 +235,7 @@
             <section class="events">
 
                 <div class="container_sm">
+                    <!-- header -->
                     <div class="section_header">
                         <h3>Wanna transform you life?</h3>
                         <h2 class="lg_title">Upcoming Events</h2>
@@ -204,12 +243,17 @@
 
                     <!-- events -->
                     <div class="cards">
+                        <!-- card -->
                         <div class="card" v-for="data in events">
+                            <!-- left info -->
                             <div class="info">
+                                <!-- palce -->
                                 <span> <i class="fas fa-map-marker-alt"></i> {{data.place}}</span>
+                                <!-- name event -->
                                 <h4>{{data.name}}</h4>
                             </div>
 
+                            <!-- date event -->
                             <div class="date">
                                 <span class="day"> {{data.day}} </span>
                                 <span class="month"> {{data.month}} </span>
@@ -219,7 +263,7 @@
                         </div>
                     </div>
 
-                    <!-- link all events -->
+                    <!-- link for show all events -->
                     <div>Excited about our event? <a href="#">View all events <i class="fas fa-long-arrow-alt-right"></i> </a></div>
                 </div>
 
@@ -299,14 +343,22 @@
 
             <!-- newsletter -->
             <section class="newsletter">
+                <!-- header -->
                 <div class="section_header">
+                    <!-- title -->
                     <h2 class="lg_title">Subscribe <span>Newsletters</span> </h2>
-                    <p>Enter your email address to register to our newsletter subscription <br> 
-                        delivered on a regular basis!</p>
+                    <!-- text -->
+                    <p>
+                        Enter your email address to register to our newsletter subscription <br> 
+                        delivered on a regular basis!
+                    </p>
+
                 </div>
                 <!-- input email -->
                 <form class="email_form">
+                    <!-- input -->
                     <input type="text" placeholder="Enter your email">
+                    <!-- button -->
                     <button>Subscribe</button>
                 </form>
 
@@ -327,16 +379,22 @@
                         <span>+1(305) 547-9909 (9am-5pm EST, Monday-Friday)</span>
                         <span>support@maxcoach.com</span>
 
+                        <!-- social links -->
                         <div class="social">
+                            <!-- facebook -->
                             <a href="#"><i class="fab fa-facebook-square"></i></a>
+                            <!-- twitter -->
                             <a href="#"><i class="fab fa-twitter"></i></a>
+                            <!-- instagram -->
                             <a href="#"><i class="fab fa-instagram"></i></a>
+                            <!-- linkedin -->
                             <a href="#"><i class="fab fa-linkedin"></i></a>
                         </div>
                     </div>
 
                     <!-- right info -->
                     <div class="right_info">
+                        <!-- explore section -->
                         <div class="explore">
                             <!-- title -->
                             <h4 class="color_title">Explore</h4>
@@ -346,6 +404,7 @@
                             </div>
                         </div>
 
+                        <!-- information section -->
                         <div class="information">
                             <!-- title -->
                             <h4 class="color_title">Information</h4>
