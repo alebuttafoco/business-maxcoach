@@ -17,6 +17,7 @@ const app = new Vue({
                 flag: 'de',
             }
         ],
+        activeLanguage: 0,
 
         approachData:[
             {
@@ -165,6 +166,10 @@ const app = new Vue({
                     data.active = false;
                 }
             });
+        },
+
+        showLanguage(index){
+           this.activeLanguage = index;
         }
     },
     mounted(){}

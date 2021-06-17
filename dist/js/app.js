@@ -21,6 +21,7 @@ var app = new Vue({
       language: 'deutsche',
       flag: 'de'
     }],
+    activeLanguage: 0,
     approachData: [{
       img: '1',
       title: 'One to One',
@@ -178,6 +179,9 @@ var app = new Vue({
           data.active = false;
         }
       });
+    },
+    showLanguage: function showLanguage(index) {
+      this.activeLanguage = index;
     }
   },
   mounted: function mounted() {}
