@@ -233,18 +233,51 @@
 
                 <!-- feedback -->
                 <div class="cards">
-                    <div class="card" v-for="data in reviews">
+                    <!-- prev card -->
+                    <div class="card" >
                         <!-- text card -->
                         <div class="text">
-                            <h4> {{data.title}} </h4>
-                            <p> {{data.text}} </p>
+                            <h4> {{reviews[activeReview-1].title}} </h4>
+                            <p> {{reviews[activeReview-1].text}} </p>
                         </div>
                         <!-- user -->
                         <div class="user">
-                            <img :src=" data.image " alt="">
+                            <img :src=" reviews[activeReview-1].image " alt="">
                             <div class="user_info">
-                                <div class="user_name"> {{data.firstName}} {{data.lastName}} </div>
-                                <div class="profession"> /{{data.profession}} </div>
+                                <div class="user_name"> {{reviews[activeReview-1].firstName}} {{reviews[activeReview-1].lastName}} </div>
+                                <div class="profession"> /{{reviews[activeReview-1].profession}} </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- active card -->
+                    <div class="card" >
+                        <!-- text card -->
+                        <div class="text">
+                            <h4> {{reviews[activeReview].title}} </h4>
+                            <p> {{reviews[activeReview].text}} </p>
+                        </div>
+                        <!-- user -->
+                        <div class="user">
+                            <img :src=" reviews[activeReview].image " alt="">
+                            <div class="user_info">
+                                <div class="user_name"> {{reviews[activeReview].firstName}} {{reviews[activeReview].lastName}} </div>
+                                <div class="profession"> /{{reviews[activeReview].profession}} </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- next card -->
+                    <div class="card" >
+                        <!-- text card -->
+                        <div class="text">
+                            <h4> {{reviews[activeReview+1].title}} </h4>
+                            <p> {{reviews[activeReview+1].text}} </p>
+                        </div>
+                        <!-- user -->
+                        <div class="user">
+                            <img :src=" reviews[activeReview+1].image " alt="">
+                            <div class="user_info">
+                                <div class="user_name"> {{reviews[activeReview+1].firstName}} {{reviews[activeReview+1].lastName}} </div>
+                                <div class="profession"> /{{reviews[activeReview+1].profession}} </div>
                             </div>
                         </div>
                     </div>
