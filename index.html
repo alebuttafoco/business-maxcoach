@@ -233,8 +233,9 @@
 
                 <!-- feedback -->
                 <div class="cards">
+
                     <!-- prev card -->
-                    <div class="card" v-if="activeReview - 1 >= 0">
+                    <div class="card prev_review" v-if="activeReview - 1 >= 0">
                         <!-- text card -->
                         <div class="text">
                             <h4> {{reviews[activeReview - 1].title}} </h4>
@@ -250,6 +251,7 @@
                         </div>
                     </div>
                     <div class="card empty_place" v-else></div>
+
                     <!-- active card -->
                     <div class="card">
                         <!-- text card -->
@@ -266,8 +268,25 @@
                             </div>
                         </div>
                     </div>
-                    <!-- next card -->
                     
+                    <!-- next card -->
+                    <div class="card next_review" v-if="activeReview + 1 < reviews.length">
+                        <!-- text card -->
+                        <div class="text">
+                            <h4> {{reviews[activeReview + 1].title}} </h4>
+                            <p> {{reviews[activeReview + 1].text}} </p>
+                        </div>
+                        <!-- user -->
+                        <div class="user">
+                            <img :src=" reviews[activeReview + 1].image " alt="">
+                            <div class="user_info">
+                                <div class="user_name"> {{reviews[activeReview + 1].firstName}} {{reviews[activeReview + 1].lastName}} </div>
+                                <div class="profession"> /{{reviews[activeReview + 1].profession}} </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card empty_place" v-else></div>
+
                 </div>
             </section>
 
