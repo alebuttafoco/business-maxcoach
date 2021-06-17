@@ -288,6 +288,11 @@
                     <div class="card empty_place" v-else></div>
 
                 </div>
+
+                <!-- circles -->
+                <div class="circles">
+                    <i @click="showReview(i)" :class="{circle_active : i == activeReview, circle_off : i != activeReview}" class="fas fa-circle" v-for="(el, i) in reviews"></i>
+                </div>
             </section>
 
         </div>

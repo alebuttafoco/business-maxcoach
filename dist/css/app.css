@@ -155,6 +155,24 @@ a {
   font-size: 2.7rem !important;
 }
 
+.circles {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circles .circle_active {
+  font-size: 0.8rem;
+  margin-top: 30px;
+  padding: 10px;
+}
+.circles .circle_off {
+  font-size: 0.5rem;
+  margin-top: 30px;
+  padding: 10px;
+  color: #bcbcbc;
+}
+
 #site_header #site_navbar {
   display: flex;
   align-items: center;
@@ -336,22 +354,6 @@ a {
 }
 #site_main .explore .container_sm .cards .card .text p {
   margin-bottom: 20px;
-}
-#site_main .explore .container_sm .circles {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-#site_main .explore .container_sm .circles .circle_active {
-  font-size: 0.8rem;
-  margin-top: 30px;
-  padding: 10px;
-}
-#site_main .explore .container_sm .circles .circle_off {
-  font-size: 0.5rem;
-  margin-top: 30px;
-  padding: 10px;
-  color: #bcbcbc;
 }
 
 #site_main .courses .container > p {
