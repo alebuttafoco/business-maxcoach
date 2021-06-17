@@ -581,7 +581,7 @@ a {
   padding: 70px;
   background-image: url(../../dist/img/maxcoach-shape-02.png), url(../../dist/img/maxcoach-shape-09.png), url(../../dist/img/circle.png);
   background-repeat: no-repeat;
-  background-position: 80% 50%, 0 0, 0 0;
+  background-position: 80% 50%, 80% 20%, 0 0;
 }
 #site_main .newsletter .section_header {
   padding-bottom: 10px;
