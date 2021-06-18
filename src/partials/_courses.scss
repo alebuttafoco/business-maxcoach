@@ -41,7 +41,12 @@
                                 }
                         }
                         .text_hover{
-                            display: none;
+                            //transition
+                            transition: .5s;
+                            opacity: 0;
+                            height: 0;
+                            transform: rotatex(90deg);
+                            
                             font-size: .9rem;
                             line-height: 1.6rem;
                             .info{
@@ -57,7 +62,9 @@
                     }
                     &:hover{
                         .text_hover{
-                            display: block;
+                            opacity: 1;
+                            height: 120px;
+                            transform: rotate(0);
                         }
                     }
                 }

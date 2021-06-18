@@ -410,7 +410,10 @@ a {
   font-size: 1.2rem;
 }
 #site_main .courses .container .cards .card .text .text_hover {
-  display: none;
+  transition: 0.5s;
+  opacity: 0;
+  height: 0;
+  transform: rotatex(90deg);
   font-size: 0.9rem;
   line-height: 1.6rem;
 }
@@ -424,7 +427,9 @@ a {
   padding-right: 5px;
 }
 #site_main .courses .container .cards .card:hover .text_hover {
-  display: block;
+  opacity: 1;
+  height: 120px;
+  transform: rotate(0);
 }
 
 #site_main .video_section {
