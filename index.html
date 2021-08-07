@@ -221,8 +221,8 @@
 
                         <!-- FAQ -->
                         <div class="faq" v-for="(data, index) in FAQ" >
-                            <h3 :class=" {h3_active : data.active} " @click="showFAQ(index)" > <i v-if="data.active" class="far fa-caret-square-up"></i> <i v-else class="far fa-caret-square-down"></i> {{data.question}} </h3>
-                            <p v-if="data.active"> {{data.answer}} </p>
+                            <h3 :class="{h3_active : data.active}" @click="showFAQ(index)" > <i v-if="data.active" class="far fa-caret-square-up"></i> <i v-else class="far fa-caret-square-down"></i> {{data.question}} </h3>
+                            <p class="answer" v-if="data.active"> {{data.answer}} </p>
                         </div>
 
                     </div>

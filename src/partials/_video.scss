@@ -42,10 +42,21 @@
                             padding-right: 15px;
                         }
                     }
-                    p{
+                    .answer{
                         font-size: .9rem;
                         line-height: 1.7rem;
-                        padding-bottom: 20px;
+                        height: 160px;
+                        opacity: 1;
+                        
+                        // animation
+                        animation: color .2s linear;
+                        @keyframes color {
+                            from{
+                                height: 0;
+                                overflow: hidden;
+                                opacity: 0;
+                            }
+                        }
                     }
                 }
             }

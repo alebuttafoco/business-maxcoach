@@ -43,14 +43,13 @@
                         .text_hover{
                             //transition
                             transition: .5s;
-                            opacity: 0;
+                            overflow: hidden;
                             height: 0;
-                            transform: rotatex(90deg);
                             
                             font-size: .9rem;
                             line-height: 1.6rem;
                             .info{
-                                margin: 15px 0;
+                                margin-bottom: 10px;
                                 span{
                                     padding-right: 20px;
                                     i{
@@ -62,9 +61,7 @@
                     }
                     &:hover{
                         .text_hover{
-                            opacity: 1;
                             height: 120px;
-                            transform: rotate(0);
                         }
                     }
                 }

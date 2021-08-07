@@ -411,14 +411,13 @@ a {
 }
 #site_main .courses .container .cards .card .text .text_hover {
   transition: 0.5s;
-  opacity: 0;
+  overflow: hidden;
   height: 0;
-  transform: rotatex(90deg);
   font-size: 0.9rem;
   line-height: 1.6rem;
 }
 #site_main .courses .container .cards .card .text .text_hover .info {
-  margin: 15px 0;
+  margin-bottom: 10px;
 }
 #site_main .courses .container .cards .card .text .text_hover .info span {
   padding-right: 20px;
@@ -427,9 +426,7 @@ a {
   padding-right: 5px;
 }
 #site_main .courses .container .cards .card:hover .text_hover {
-  opacity: 1;
   height: 120px;
-  transform: rotate(0);
 }
 
 #site_main .video_section {
@@ -478,10 +475,27 @@ a {
 #site_main .video_section .container .video_text .faq h3 i {
   padding-right: 15px;
 }
-#site_main .video_section .container .video_text .faq p {
+#site_main .video_section .container .video_text .faq .answer {
   font-size: 0.9rem;
   line-height: 1.7rem;
-  padding-bottom: 20px;
+  height: 160px;
+  opacity: 1;
+  -webkit-animation: color 0.2s linear;
+          animation: color 0.2s linear;
+}
+@-webkit-keyframes color {
+  from {
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+  }
+}
+@keyframes color {
+  from {
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+  }
 }
 
 #site_main .events .container_sm .cards {
