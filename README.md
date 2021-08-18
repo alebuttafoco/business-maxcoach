@@ -6,4 +6,4 @@ https://alebuttafoco.github.io/proj-html-vuejs/
 - gestione dati e funzioni tramite `Vue.js` ✔
 - date gestite con `day.js` ✔
 - utilizzato `SCSS` per stilizzare la pagina ✔
-- layout `responsive` non implementato ❌ 
+- layout `responsive` non implementato  
